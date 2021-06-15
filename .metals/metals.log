@@ -1,0 +1,1744 @@
+[0m2021.06.14 21:53:59 INFO  Started: Metals version 0.10.4 in workspace '/home/sachin/top-secret/monads' for client Visual Studio Code 1.57.0.[0m
+[0m2021.06.14 21:54:02 INFO  time: initialize in 3.92s[0m
+[0m2021.06.14 21:54:02 WARN  Build server is not auto-connectable.[0m
+[0m2021.06.14 21:54:02 WARN  no build target for: /home/sachin/top-secret/monads/src/main/scala/example/Hello.scala[0m
+[0m2021.06.14 21:54:05 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals9621848065910899928/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.06.14 21:54:06 WARN  no build target for: /home/sachin/top-secret/monads/project/metals.sbt[0m
+[0m2021.06.14 21:54:06 WARN  no build target for: /home/sachin/top-secret/monads/project/project/metals.sbt[0m
+[0m2021.06.14 21:54:06 INFO  skipping build import with status 'Started'[0m
+[0m2021.06.14 21:54:07 ERROR [info] [launcher] getting org.scala-sbt sbt 1.5.4  (this may take some time)...[0m
+[0m2021.06.14 21:54:11 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.06.14 21:54:14 INFO  time: code lens generation in 10s[0m
+[0m2021.06.14 21:54:14 INFO  time: code lens generation in 7.89s[0m
+Jun 14, 2021 9:54:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+[0m2021.06.14 21:54:52 WARN  no build target for: /home/sachin/top-secret/monads/build.sbt[0m
+[0m2021.06.14 21:54:58 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.5.4/main_2.12-1.5.4.jar ...[0m
+[0m2021.06.14 21:54:58 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/sbt/1.5.4/sbt-1.5.4.jar ...[0m
+[0m2021.06.14 21:54:58 ERROR :: loading settings :: url = jar:file:/tmp/metals9621848065910899928/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.06.14 21:54:58 ERROR :: loading settings :: url = jar:file:/tmp/metals9621848065910899928/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.06.14 21:54:58 ERROR :: loading settings :: url = jar:file:/tmp/metals9621848065910899928/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.06.14 21:54:58 ERROR :: loading settings :: url = jar:file:/tmp/metals9621848065910899928/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.06.14 21:54:58 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/logic_2.12/1.5.4/logic_2.12-1.5.4.jar ...[0m
+[0m2021.06.14 21:54:58 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/actions_2.12/1.5.4/actions_2.12-1.5.4.jar ...[0m
+[0m2021.06.14 21:54:59 ERROR 	[SUCCESSFUL ] org.scala-sbt#sbt;1.5.4!sbt.jar (1060ms)[0m
+[0m2021.06.14 21:54:59 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/main-settings_2.12/1.5.4/main-settings_2.12-1.5.4.jar ...[0m
+[0m2021.06.14 21:54:59 ERROR 	[SUCCESSFUL ] org.scala-sbt#logic_2.12;1.5.4!logic_2.12.jar (1276ms)[0m
+[0m2021.06.14 21:54:59 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/run_2.12/1.5.4/run_2.12-1.5.4.jar ...[0m
+[0m2021.06.14 21:54:59 ERROR 	[SUCCESSFUL ] org.scala-sbt#actions_2.12;1.5.4!actions_2.12.jar (1489ms)[0m
+[0m2021.06.14 21:54:59 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/command_2.12/1.5.4/command_2.12-1.5.4.jar ...[0m
+[0m2021.06.14 21:54:59 ERROR 	[SUCCESSFUL ] org.scala-sbt#run_2.12;1.5.4!run_2.12.jar (737ms)[0m
+[0m2021.06.14 21:55:00 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.5.4/collections_2.12-1.5.4.jar ...[0m
+[0m2021.06.14 21:55:00 ERROR 	[SUCCESSFUL ] org.scala-sbt#main_2.12;1.5.4!main_2.12.jar (2452ms)[0m
+[0m2021.06.14 21:55:00 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/scripted-plugin_2.12/1.5.4/scripted-plugin_2.12-1.5.4.jar ...[0m
+[0m2021.06.14 21:55:00 ERROR 	[SUCCESSFUL ] org.scala-sbt#command_2.12;1.5.4!command_2.12.jar (971ms)[0m
+[0m2021.06.14 21:55:00 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-lm-integration_2.12/1.5.4/zinc-lm-integration_2.12-1.5.4.jar ...[0m
+[0m2021.06.14 21:55:00 ERROR 	[SUCCESSFUL ] org.scala-sbt#collections_2.12;1.5.4!collections_2.12.jar (759ms)[0m
+[0m2021.06.14 21:55:00 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.5.4/util-logging_2.12-1.5.4.jar ...[0m
+[0m2021.06.14 21:55:01 ERROR 	[SUCCESSFUL ] org.scala-sbt#scripted-plugin_2.12;1.5.4!scripted-plugin_2.12.jar (650ms)[0m
+[0m2021.06.14 21:55:01 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.5.2/librarymanagement-core_2.12-1.5.2.jar ...[0m
+[0m2021.06.14 21:55:01 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-lm-integration_2.12;1.5.4!zinc-lm-integration_2.12.jar (677ms)[0m
+[0m2021.06.14 21:55:01 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.5.2/librarymanagement-ivy_2.12-1.5.2.jar ...[0m
+[0m2021.06.14 21:55:01 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-logging_2.12;1.5.4!util-logging_2.12.jar (738ms)[0m
+[0m2021.06.14 21:55:01 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.5.5/compiler-interface-1.5.5.jar ...[0m
+[0m2021.06.14 21:55:02 ERROR 	[SUCCESSFUL ] org.scala-sbt#compiler-interface;1.5.5!compiler-interface.jar (697ms)[0m
+[0m2021.06.14 21:55:02 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile_2.12/1.5.5/zinc-compile_2.12-1.5.5.jar ...[0m
+[0m2021.06.14 21:55:02 ERROR 	[SUCCESSFUL ] org.scala-sbt#librarymanagement-ivy_2.12;1.5.2!librarymanagement-ivy_2.12.jar (1073ms)[0m
+[0m2021.06.14 21:55:02 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.5.4/util-relation_2.12-1.5.4.jar ...[0m
+[0m2021.06.14 21:55:02 ERROR 	[SUCCESSFUL ] org.scala-sbt#librarymanagement-core_2.12;1.5.2!librarymanagement-core_2.12.jar (1152ms)[0m
+[0m2021.06.14 21:55:02 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.5.4/util-position_2.12-1.5.4.jar ...[0m
+[0m2021.06.14 21:55:02 ERROR 	[SUCCESSFUL ] org.scala-sbt#main-settings_2.12;1.5.4!main-settings_2.12.jar (3411ms)[0m
+[0m2021.06.14 21:55:02 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/completion_2.12/1.5.4/completion_2.12-1.5.4.jar ...[0m
+[0m2021.06.14 21:55:02 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-compile_2.12;1.5.5!zinc-compile_2.12.jar (819ms)[0m
+[0m2021.06.14 21:55:02 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-relation_2.12;1.5.4!util-relation_2.12.jar (814ms)[0m
+[0m2021.06.14 21:55:02 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-position_2.12;1.5.4!util-position_2.12.jar (810ms)[0m
+[0m2021.06.14 21:55:02 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/tasks_2.12/1.5.4/tasks_2.12-1.5.4.jar ...[0m
+[0m2021.06.14 21:55:02 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/testing_2.12/1.5.4/testing_2.12-1.5.4.jar ...[0m
+[0m2021.06.14 21:55:02 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/task-system_2.12/1.5.4/task-system_2.12-1.5.4.jar ...[0m
+[0m2021.06.14 21:55:03 ERROR 	[SUCCESSFUL ] org.scala-sbt#completion_2.12;1.5.4!completion_2.12.jar (794ms)[0m
+[0m2021.06.14 21:55:03 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-tracking_2.12/1.5.4/util-tracking_2.12-1.5.4.jar ...[0m
+[0m2021.06.14 21:55:03 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-tracking_2.12;1.5.4!util-tracking_2.12.jar (677ms)[0m
+[0m2021.06.14 21:55:03 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.5.5/zinc-classpath_2.12-1.5.5.jar ...[0m
+[0m2021.06.14 21:55:05 ERROR 	[SUCCESSFUL ] org.scala-sbt#testing_2.12;1.5.4!testing_2.12.jar (1389ms)[0m
+[0m2021.06.14 21:55:05 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.5.5/zinc-apiinfo_2.12-1.5.5.jar ...[0m
+[0m2021.06.14 21:55:05 ERROR 	[SUCCESSFUL ] org.scala-sbt#tasks_2.12;1.5.4!tasks_2.12.jar (1435ms)[0m
+[0m2021.06.14 21:55:05 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.5.5/zinc_2.12-1.5.5.jar ...[0m
+[0m2021.06.14 21:55:05 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-classpath_2.12;1.5.5!zinc-classpath_2.12.jar (754ms)[0m
+[0m2021.06.14 21:55:05 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.5.4/util-control_2.12-1.5.4.jar ...[0m
+[0m2021.06.14 21:55:05 ERROR 	[SUCCESSFUL ] org.scala-sbt#task-system_2.12;1.5.4!task-system_2.12.jar (1954ms)[0m
+[0m2021.06.14 21:55:05 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.5.4/util-interface-1.5.4.jar ...[0m
+[0m2021.06.14 21:55:05 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-control_2.12;1.5.4!util-control_2.12.jar (722ms)[0m
+[0m2021.06.14 21:55:05 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.5.4/core-macros_2.12-1.5.4.jar ...[0m
+[0m2021.06.14 21:55:06 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-interface;1.5.4!util-interface.jar (783ms)[0m
+[0m2021.06.14 21:55:06 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc_2.12;1.5.5!zinc_2.12.jar (1316ms)[0m
+[0m2021.06.14 21:55:06 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-apiinfo_2.12;1.5.5!zinc-apiinfo_2.12.jar (1356ms)[0m
+[0m2021.06.14 21:55:06 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.5.4/util-cache_2.12-1.5.4.jar ...[0m
+[0m2021.06.14 21:55:06 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.5.4/test-agent-1.5.4.jar ...[0m
+[0m2021.06.14 21:55:06 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.5.5/compiler-bridge_2.12-1.5.5.jar ...[0m
+[0m2021.06.14 21:55:06 ERROR 	[SUCCESSFUL ] org.scala-sbt#core-macros_2.12;1.5.4!core-macros_2.12.jar (755ms)[0m
+[0m2021.06.14 21:55:06 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.5.5/zinc-classfile_2.12-1.5.5.jar ...[0m
+[0m2021.06.14 21:55:06 ERROR 	[SUCCESSFUL ] org.scala-sbt#test-agent;1.5.4!test-agent.jar (696ms)[0m
+[0m2021.06.14 21:55:06 ERROR 	[SUCCESSFUL ] org.scala-sbt#compiler-bridge_2.12;1.5.5!compiler-bridge_2.12.jar (721ms)[0m
+[0m2021.06.14 21:55:06 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.5.5/zinc-core_2.12-1.5.5.jar ...[0m
+[0m2021.06.14 21:55:06 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.5.5/zinc-persist_2.12-1.5.5.jar ...[0m
+[0m2021.06.14 21:55:07 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-classfile_2.12;1.5.5!zinc-classfile_2.12.jar (657ms)[0m
+[0m2021.06.14 21:55:07 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.5.5/zinc-compile-core_2.12-1.5.5.jar ...[0m
+[0m2021.06.14 21:55:07 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-cache_2.12;1.5.4!util-cache_2.12.jar (1005ms)[0m
+[0m2021.06.14 21:55:07 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.5.5/zinc-persist-core-assembly-1.5.5.jar ...[0m
+[0m2021.06.14 21:55:07 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-core_2.12;1.5.5!zinc-core_2.12.jar (844ms)[0m
+[0m2021.06.14 21:55:07 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/protocol_2.12/1.5.4/protocol_2.12-1.5.4.jar ...[0m
+[0m2021.06.14 21:55:07 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-persist_2.12;1.5.5!zinc-persist_2.12.jar (1174ms)[0m
+[0m2021.06.14 21:55:07 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/ipcsocket/ipcsocket/1.3.1/ipcsocket-1.3.1.jar ...[0m
+[0m2021.06.14 21:55:09 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-persist-core-assembly;1.5.5!zinc-persist-core-assembly.jar (1560ms)[0m
+[0m2021.06.14 21:55:09 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-compile-core_2.12;1.5.5!zinc-compile-core_2.12.jar (1713ms)[0m
+[0m2021.06.14 21:55:09 ERROR 	[SUCCESSFUL ] org.scala-sbt.ipcsocket#ipcsocket;1.3.1!ipcsocket.jar (837ms)[0m
+[0m2021.06.14 21:55:09 ERROR 	[SUCCESSFUL ] org.scala-sbt#protocol_2.12;1.5.4!protocol_2.12.jar (1274ms)[0m
+[0m2021.06.14 21:55:09 ERROR :: retrieving :: org.scala-sbt#boot-app[0m
+[0m2021.06.14 21:55:09 ERROR 	confs: [default][0m
+[0m2021.06.14 21:55:09 ERROR 	83 artifacts copied, 0 already retrieved[0m
+[0m2021.06.14 21:55:11 INFO  [info] welcome to sbt 1.5.4 (Ubuntu Java 11.0.11)[0m
+[0m2021.06.14 21:55:13 INFO  [info] loading global plugins from /home/sachin/.sbt/1.0/plugins[0m
+[0m2021.06.14 21:55:33 INFO  [info] loading settings for project monads-build-build from metals.sbt ...[0m
+[0m2021.06.14 21:55:33 INFO  [info] loading project definition from /home/sachin/top-secret/monads/project/project[0m
+[0m2021.06.14 21:55:35 INFO  [info] loading settings for project monads-build from metals.sbt ...[0m
+[0m2021.06.14 21:55:35 INFO  [info] loading project definition from /home/sachin/top-secret/monads/project[0m
+[0m2021.06.14 21:55:40 INFO  [success] Generated .bloop/monads-build.json[0m
+[0m2021.06.14 21:55:40 INFO  [info] compiling 1 Scala source to /home/sachin/top-secret/monads/project/target/scala-2.12/sbt-1.0/classes ...[0m
+[0m2021.06.14 21:55:40 INFO  [info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.14. Compiling...[0m
+[0m2021.06.14 21:55:51 INFO  [info]   Compilation completed in 11.0s.[0m
+[0m2021.06.14 21:55:51 INFO  [info] done compiling[0m
+[0m2021.06.14 21:55:52 INFO  [success] Total time: 17 s, completed 14-Jun-2021, 9:55:52 PM[0m
+[0m2021.06.14 21:55:55 INFO  [info] loading settings for project root from build.sbt ...[0m
+[0m2021.06.14 21:55:55 INFO  [info] set current project to monads (in build file:/home/sachin/top-secret/monads/)[0m
+[0m2021.06.14 21:55:55 INFO  [success] Generated .bloop/root.json[0m
+[0m2021.06.14 21:55:55 INFO  [success] Generated .bloop/root-test.json[0m
+[0m2021.06.14 21:55:55 INFO  [success] Total time: 0 s, completed 14-Jun-2021, 9:55:56 PM[0m
+[0m2021.06.14 21:55:56 INFO  sbt bloopInstall exit: 0[0m
+[0m2021.06.14 21:55:56 INFO  time: ran 'sbt bloopInstall' in 1m50s[0m
+[0m2021.06.14 21:55:56 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher8794256239580296630/bsp.socket'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8-19-4d9f966b...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading 2 projects from '/home/sachin/top-secret/monads/.bloop'...
+[0m[32m[D][0m Loading project from '/home/sachin/top-secret/monads/.bloop/root.json'
+[0m[32m[D][0m Loading project from '/home/sachin/top-secret/monads/.bloop/root-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.5.
+[0m[32m[D][0m   => /home/sachin/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /home/sachin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.19.0/jline-3.19.0.jar
+[0m[32m[D][0m   => /home/sachin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.5/scala-compiler-2.13.5.jar
+[0m[32m[D][0m   => /home/sachin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.5/scala-library-2.13.5.jar
+[0m[32m[D][0m   => /home/sachin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.5/scala-reflect-2.13.5.jar
+[0m[32m[D][0m Missing analysis file for project 'root'
+[0m[32m[D][0m Missing analysis file for project 'root-test'
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher8794256239580296630/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher8794256239580296630/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.14 21:56:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sachin/.cache/metals/bsp.trace.json[0m
+[0m2021.06.14 21:56:00 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher4134534716254052269/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher4134534716254052269/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher4134534716254052269/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.14 21:56:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sachin/.cache/metals/bsp.trace.json[0m
+[0m2021.06.14 21:56:10 INFO  time: Connected to build server in 13s[0m
+[0m2021.06.14 21:56:10 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.06.14 21:56:10 INFO  time: Imported build in 0.16s[0m
+[0m2021.06.14 21:56:12 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.06.14 21:56:16 INFO  time: indexed workspace in 5.82s[0m
+[0m2021.06.14 21:56:43 INFO  compiling monads-build (1 scala source)[0m
+[0m2021.06.14 21:56:43 INFO  Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.14. Compiling...[0m
+Jun 14, 2021 9:56:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Jun 14, 2021 9:56:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49
+Jun 14, 2021 9:56:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 46
+Jun 14, 2021 9:56:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48
+Jun 14, 2021 9:56:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 50
+Jun 14, 2021 9:56:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 54
+[0m2021.06.14 21:57:04 INFO    Compilation completed in 20.146s.[0m
+Jun 14, 2021 9:57:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 82
+[0m2021.06.14 21:57:08 INFO  time: compiled monads-build in 25s[0m
+[0m2021.06.14 22:05:14 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals8916725916694286593/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.06.14 22:05:16 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:05:18 INFO  [info] welcome to sbt 1.5.4 (Ubuntu Java 11.0.11)[0m
+[0m2021.06.14 22:05:23 INFO  [info] loading global plugins from /home/sachin/.sbt/1.0/plugins[0m
+[0m2021.06.14 22:05:26 INFO  time: compiled root in 9.67s[0m
+[0m2021.06.14 22:05:26 INFO  [info] loading settings for project monads-build-build from metals.sbt ...[0m
+[0m2021.06.14 22:05:26 INFO  [info] loading project definition from /home/sachin/top-secret/monads/project/project[0m
+[0m2021.06.14 22:05:26 INFO  [info] loading settings for project monads-build from metals.sbt ...[0m
+[0m2021.06.14 22:05:26 INFO  [info] loading project definition from /home/sachin/top-secret/monads/project[0m
+[0m2021.06.14 22:05:31 INFO  [success] Generated .bloop/monads-build.json[0m
+[0m2021.06.14 22:05:31 INFO  [success] Total time: 4 s, completed 14-Jun-2021, 10:05:31 PM[0m
+[0m2021.06.14 22:05:34 INFO  [info] loading settings for project root from build.sbt ...[0m
+[0m2021.06.14 22:05:34 INFO  [info] set current project to monads (in build file:/home/sachin/top-secret/monads/)[0m
+[0m2021.06.14 22:05:34 INFO  [success] Generated .bloop/root.json[0m
+[0m2021.06.14 22:05:34 INFO  [success] Generated .bloop/root-test.json[0m
+[0m2021.06.14 22:05:34 INFO  [success] Total time: 0 s, completed 14-Jun-2021, 10:05:35 PM[0m
+[0m2021.06.14 22:05:36 INFO  sbt bloopInstall exit: 0[0m
+[0m2021.06.14 22:05:36 INFO  time: ran 'sbt bloopInstall' in 21s[0m
+[0m2021.06.14 22:05:36 INFO  Disconnecting from Bloop session...[0m
+[0m2021.06.14 22:05:36 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+[0m2021.06.14 22:05:36 INFO No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+ Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+[0m2021.06.14 22:05:36No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+ INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher3536732115853667880/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/sachin/top-secret/monads/.bloop'...
+[0m[32m[D][0m Loading project from '/home/sachin/top-secret/monads/.bloop/root.json'
+[0m[32m[D][0m Loading project from '/home/sachin/top-secret/monads/.bloop/root-test.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'root-test', 'root'
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher3536732115853667880/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher3536732115853667880/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.14 22:05:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sachin/.cache/metals/bsp.trace.json[0m
+[0m2021.06.14 22:05:36 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher7593877403536672129/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher7593877403536672129/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher7593877403536672129/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.14 22:05:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sachin/.cache/metals/bsp.trace.json[0m
+[0m2021.06.14 22:05:36 INFO  time: Connected to build server in 0.2s[0m
+[0m2021.06.14 22:05:36 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.06.14 22:05:38 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.06.14 22:05:38 INFO  time: indexed workspace in 2s[0m
+[0m2021.06.14 22:05:38 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:05:40 INFO  time: compiled root in 2.01s[0m
+[0m2021.06.14 22:05:40 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.14 22:05:43 INFO  time: compiled root-test in 2.92s[0m
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/example/Hello.scala in Array[<error>]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/example/Hello.scala, 74, 74, 89)
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/example/Hello.scala in Array[<error>]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/example/Hello.scala, 74, 74, 82)
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/example/Hello.scala in Array[<error>]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/example/Hello.scala, 74, 74, 83)
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/example/Hello.scala in Array[<error>]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/example/Hello.scala, 74, 74, 84)
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/example/Hello.scala in Array[<error>]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/example/Hello.scala, 74, 74, 85)
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/example/Hello.scala in Array[String]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/example/Hello.scala, 74, 74, 87)
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/example/Hello.scala in Array[String]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/example/Hello.scala, 74, 74, 87)
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/example/Hello.scala in Array[String]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/example/Hello.scala, 74, 74, 87)
+[0m2021.06.14 22:06:40 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:06:40 INFO  time: compiled root in 0.22s[0m
+[0m2021.06.14 22:06:48 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:06:48 INFO  time: compiled root in 0.7s[0m
+[0m2021.06.14 22:07:20 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:07:20 INFO  time: compiled root in 0.62s[0m
+[0m2021.06.14 22:07:55 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:07:55 INFO  time: compiled root in 0.1s[0m
+[0m2021.06.14 22:07:57 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:07:57 INFO  time: compiled root in 0.63s[0m
+[0m2021.06.14 22:08:13 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:08:13 INFO  time: compiled root in 0.14s[0m
+[0m2021.06.14 22:08:24 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:08:24 INFO  time: compiled root in 0.12s[0m
+[0m2021.06.14 22:08:31 INFO  /home/sachin/top-secret/monads/src/main/scala/example/Hello.scala:5:13: stale bloop error: not found: value greeting
+    println(greeting)
+            ^^^^^^^^[0m
+[0m2021.06.14 22:08:31 INFO  /home/sachin/top-secret/monads/src/main/scala/example/Hello.scala:5:13: stale bloop error: not found: value greeting
+    println(greeting)
+            ^^^^^^^^[0m
+[0m2021.06.14 22:08:31 INFO  /home/sachin/top-secret/monads/src/main/scala/example/Hello.scala:5:13: stale bloop error: not found: value greeting
+    println(greeting)
+            ^^^^^^^^[0m
+[0m2021.06.14 22:08:32 INFO  /home/sachin/top-secret/monads/src/main/scala/example/Hello.scala:5:13: stale bloop error: not found: value greeting
+    println(greeting)
+            ^^^^^^^^[0m
+[0m2021.06.14 22:08:31 INFO  /home/sachin/top-secret/monads/src/main/scala/example/Hello.scala:5:13: stale bloop error: not found: value greeting
+    println(greeting)
+            ^^^^^^^^[0m
+[0m2021.06.14 22:08:31 INFO  /home/sachin/top-secret/monads/src/main/scala/example/Hello.scala:5:13: stale bloop error: not found: value greeting
+    println(greeting)
+            ^^^^^^^^[0m
+[0m2021.06.14 22:08:33 INFO  /home/sachin/top-secret/monads/src/main/scala/example/Hello.scala:5:13: stale bloop error: not found: value greeting
+    println(greeting)
+            ^^^^^^^^[0m
+[0m2021.06.14 22:08:33 INFO  /home/sachin/top-secret/monads/src/main/scala/example/Hello.scala:5:13: stale bloop error: not found: value greeting
+    println(greeting)
+            ^^^^^^^^[0m
+[0m2021.06.14 22:08:33 INFO  /home/sachin/top-secret/monads/src/main/scala/example/Hello.scala:5:13: stale bloop error: not found: value greeting
+    println(greeting)
+            ^^^^^^^^[0m
+[0m2021.06.14 22:08:33 INFO  /home/sachin/top-secret/monads/src/main/scala/example/Hello.scala:5:13: stale bloop error: not found: value greeting
+    println(greeting)
+            ^^^^^^^^[0m
+[0m2021.06.14 22:09:01 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:09:01 INFO  time: compiled root in 0.75s[0m
+[0m2021.06.14 22:09:13 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:09:13 INFO  time: compiled root in 0.62s[0m
+[0m2021.06.14 22:09:21 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:09:21 INFO  time: compiled root in 0.85s[0m
+[0m2021.06.14 22:11:00 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:11:00 INFO  time: compiled root in 0.77s[0m
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/example/Hello.scala in () => ARangePosition(file:///home/sachin/top-secret/monads/src/main/scala/example/Hello.scala, 71, 74, 78)
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/example/Hello.scala in example.Hello.Thunk[<error>]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/example/Hello.scala, 105, 105, 120)
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/example/Hello.scala in example.Hello.Thunk[A]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/example/Hello.scala, 105, 105, 113)
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/example/Hello.scala in example.Hello.Thunk[A]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/example/Hello.scala, 105, 105, 113)
+[0m2021.06.14 22:11:49 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:11:49 INFO  time: compiled root in 0.73s[0m
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/example/Hello.scala in example.Hello.Thunk[A]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/example/Hello.scala, 105, 105, 113)
+[0m2021.06.14 22:12:30 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:12:30 INFO  time: compiled root in 0.88s[0m
+[0m2021.06.14 22:13:18 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:13:20 INFO  time: compiled root in 1.44s[0m
+Jun 14, 2021 10:14:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1324
+[0m2021.06.14 22:14:51 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:14:53 INFO  time: compiled root in 1.57s[0m
+[0m2021.06.14 22:15:14 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:15:16 INFO  time: compiled root in 1.27s[0m
+[0m2021.06.14 22:16:04 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:16:06 INFO  time: compiled root in 1.32s[0m
+[0m2021.06.14 22:16:45 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:16:46 INFO  time: compiled root in 1.23s[0m
+[0m2021.06.14 22:17:09 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:17:09 INFO  time: compiled root in 0.26s[0m
+[0m2021.06.14 22:17:22 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:17:24 INFO  time: compiled root in 1.14s[0m
+[0m2021.06.14 22:17:31 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:17:32 INFO  time: compiled root in 1.29s[0m
+[0m2021.06.14 22:17:50 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:17:51 INFO  time: compiled root in 1.02s[0m
+[0m2021.06.14 22:17:57 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:17:58 INFO  time: compiled root in 1.48s[0m
+Jun 14, 2021 10:19:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1776
+Jun 14, 2021 10:21:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1926
+Jun 14, 2021 10:21:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1959
+Jun 14, 2021 10:21:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1980
+[0m2021.06.14 22:21:58 ERROR code navigation does not work for the file '/home/sachin/top-secret/monads/src/main/scala/monads/Interpretor.scala' because the SemanticDB file '/home/sachin/top-secret/monads/.bloop/root/bloop-bsp-clients-classes/classes-Metals-BwBoaIxFSgisb9RFaLkGPA==/META-INF/semanticdb/src/main/scala/monads/Interpretor.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+Jun 14, 2021 10:22:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2018
+[0m2021.06.14 22:22:16 ERROR code navigation does not work for the file '/home/sachin/top-secret/monads/src/main/scala/monads/Main.scala' because the SemanticDB file '/home/sachin/top-secret/monads/.bloop/root/bloop-bsp-clients-classes/classes-Metals-BwBoaIxFSgisb9RFaLkGPA==/META-INF/semanticdb/src/main/scala/monads/Main.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+Jun 14, 2021 10:22:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2027
+[0m2021.06.14 22:22:56 INFO  Deduplicating compilation of root from bsp client 'Metals 0.10.4' (since 17m 20.455s)[0m
+[0m2021.06.14 22:22:56 INFO  compiling root (2 scala sources)[0m
+[0m2021.06.14 22:22:56 INFO  compiling root (2 scala sources)[0m
+[0m2021.06.14 22:22:56 INFO  time: compiled root in 0.87s[0m
+[0m2021.06.14 22:22:56 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.14 22:22:57 INFO  time: compiled root-test in 0.17s[0m
+java.nio.file.NoSuchFileException: /home/sachin/top-secret/monads/src/main/scala/example/Hello.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:437)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionAbsolutePathBuffers.toInputFromBuffers(MetalsEnrichments.scala:348)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$compileAndLookForNewReferences$1(MetalsLanguageServer.scala:1404)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$compileAndLookForNewReferences$1$adapted(MetalsLanguageServer.scala:1403)
+	at scala.util.Success.foreach(Try.scala:253)
+	at scala.concurrent.Future.$anonfun$foreach$1$adapted(Future.scala:229)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Jun 14, 2021 10:25:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2368
+Jun 14, 2021 10:25:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2374
+[0m2021.06.14 22:25:59 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:25:59 INFO  time: compiled root in 0.69s[0m
+[0m2021.06.14 22:26:03 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:26:03 INFO  time: compiled root in 0.25s[0m
+[0m2021.06.14 22:26:08 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:26:09 INFO  time: compiled root in 1.08s[0m
+Jun 14, 2021 10:26:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2442
+[0m2021.06.14 22:28:21 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:28:23 INFO  time: compiled root in 1.21s[0m
+[0m2021.06.14 22:28:30 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:28:30 INFO  time: compiled root in 0.99s[0m
+[0m2021.06.14 22:28:45 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:28:45 INFO  time: compiled root in 0.89s[0m
+[0m2021.06.14 22:28:50 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.14 22:28:50 INFO  time: compiled root-test in 0.18s[0m
+[0m2021.06.14 22:28:57 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.14 22:28:57 INFO  time: compiled root-test in 0.17s[0m
+[0m2021.06.14 22:28:57 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.14 22:28:57 INFO  time: compiled root-test in 0.17s[0m
+[0m2021.06.14 22:29:11 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.14 22:29:11 INFO  time: compiled root-test in 0.16s[0m
+[0m2021.06.14 22:29:13 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.14 22:29:13 INFO  time: compiled root-test in 0.13s[0m
+[0m2021.06.14 22:29:18 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.14 22:29:18 INFO  time: compiled root-test in 0.14s[0m
+[0m2021.06.14 22:29:18 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.14 22:29:18 INFO  time: compiled root-test in 0.15s[0m
+[0m2021.06.14 22:29:18 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.14 22:29:19 INFO  time: compiled root-test in 0.13s[0m
+[0m2021.06.14 22:30:03 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:30:03 INFO  time: compiled root in 0.33s[0m
+[0m2021.06.14 22:31:28 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:31:29 INFO  time: compiled root in 1.01s[0m
+Jun 14, 2021 10:31:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2952
+[0m2021.06.14 22:31:39 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:31:39 INFO  time: compiled root in 0.9s[0m
+[0m2021.06.14 22:34:27 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:34:27 INFO  time: compiled root in 0.56s[0m
+Jun 14, 2021 10:34:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3008
+Jun 14, 2021 10:34:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3031
+[0m2021.06.14 22:35:02 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:35:02 INFO  time: compiled root in 0.91s[0m
+Jun 14, 2021 10:35:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3043
+[0m2021.06.14 22:35:18 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:35:19 INFO  time: compiled root in 1.2s[0m
+[0m2021.06.14 22:35:27 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:35:27 INFO  time: compiled root in 0.16s[0m
+Jun 14, 2021 10:35:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3078
+[0m2021.06.14 22:35:33 INFO  compiling root (3 scala sources)[0m
+[0m2021.06.14 22:35:33 INFO  time: compiled root in 0.16s[0m
+[0m2021.06.14 22:35:44 INFO  compiling root (3 scala sources)[0m
+[0m2021.06.14 22:35:44 INFO  time: compiled root in 0.14s[0m
+Jun 14, 2021 10:35:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3136
+[0m2021.06.14 22:35:56 INFO  compiling root (3 scala sources)[0m
+[0m2021.06.14 22:35:58 INFO  time: compiled root in 1.59s[0m
+[0m2021.06.14 22:39:21 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:39:21 INFO  time: compiled root in 0.47s[0m
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/fplib/Description.scala in () => <error>RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/fplib/Description.scala, 57, 60, 63)
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/fplib/Description.scala in () => <error>RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/fplib/Description.scala, 57, 60, 63)
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/fplib/Description.scala in () => <error>RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/fplib/Description.scala, 57, 60, 63)
+[0m2021.06.14 22:40:54 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:40:54 INFO  time: compiled root in 0.13s[0m
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/fplib/Description.scala in () => ARangePosition(file:///home/sachin/top-secret/monads/src/main/scala/fplib/Description.scala, 57, 60, 64)
+[0m2021.06.14 22:41:39 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:41:39 INFO  time: compiled root in 79ms[0m
+[0m2021.06.14 22:41:49 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:41:49 INFO  time: compiled root in 0.86s[0m
+Jun 14, 2021 10:41:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3517
+Jun 14, 2021 10:42:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3523
+[0m2021.06.14 22:42:07 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:42:07 INFO  time: compiled root in 0.94s[0m
+[0m2021.06.14 22:42:14 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:42:14 INFO  time: compiled root in 0.78s[0m
+[0m2021.06.14 22:56:28 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:56:28 INFO  time: compiled root in 0.68s[0m
+[0m2021.06.14 22:58:39 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:58:39 INFO  time: compiled root in 0.12s[0m
+[0m2021.06.14 22:58:53 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:58:53 INFO  time: compiled root in 0.15s[0m
+Jun 14, 2021 10:58:57 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jun 14, 2021 10:58:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: 
+  unexpected tree: class scala.reflect.internal.Trees$Template
+scala.AnyRef
+     while compiling: file:///home/sachin/top-secret/monads/src/main/scala/fplib/PointFree.scala
+        during phase: globalPhase=<no phase>, enteringPhase=parser
+     library version: version 2.13.5
+    compiler version: version 2.13.5
+  reconstructed args: -classpath /home/sachin/top-secret/monads/.bloop/root/bloop-bsp-clients-classes/classes-Metals-BwBoaIxFSgisb9RFaLkGPA==:/home/sachin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.5/scala-library-2.13.5.jar -language:higherKinds -language:implicitConversions -Xplugin-require:semanticdb -Yrangepos -Ymacro-expand:discard -Ycache-plugin-class-loader:last-modified -Ypresentation-any-thread
+
+  last tree to typer: Template
+       tree position: line 5 of file:///home/sachin/top-secret/monads/src/main/scala/fplib/PointFree.scala
+              symbol: <none>
+   symbol definition: <none> (a NoSymbol)
+      symbol package: <none>
+       symbol owners: 
+           call site: <none> in <none>
+
+== Source file context for tree position ==
+
+     2 
+     3 object PointFree {
+     4 
+     5     def compose[A,B,C](ab: A => B, bc: B => C ) = a:A => {
+     6         bc(ab(a))
+     7     }
+     8 }
+scala.reflect.internal.FatalError: 
+  unexpected tree: class scala.reflect.internal.Trees$Template
+scala.AnyRef
+     while compiling: file:///home/sachin/top-secret/monads/src/main/scala/fplib/PointFree.scala
+        during phase: globalPhase=<no phase>, enteringPhase=parser
+     library version: version 2.13.5
+    compiler version: version 2.13.5
+  reconstructed args: -classpath /home/sachin/top-secret/monads/.bloop/root/bloop-bsp-clients-classes/classes-Metals-BwBoaIxFSgisb9RFaLkGPA==:/home/sachin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.5/scala-library-2.13.5.jar -language:higherKinds -language:implicitConversions -Xplugin-require:semanticdb -Yrangepos -Ymacro-expand:discard -Ycache-plugin-class-loader:last-modified -Ypresentation-any-thread
+
+  last tree to typer: Template
+       tree position: line 5 of file:///home/sachin/top-secret/monads/src/main/scala/fplib/PointFree.scala
+              symbol: <none>
+   symbol definition: <none> (a NoSymbol)
+      symbol package: <none>
+       symbol owners: 
+           call site: <none> in <none>
+
+== Source file context for tree position ==
+
+     2 
+     3 object PointFree {
+     4 
+     5     def compose[A,B,C](ab: A => B, bc: B => C ) = a:A => {
+     6         bc(ab(a))
+     7     }
+     8 }
+	at scala.reflect.internal.Reporting.abort(Reporting.scala:69)
+	at scala.reflect.internal.Reporting.abort$(Reporting.scala:65)
+	at scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:28)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedOutsidePatternMode$1(Typers.scala:5960)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5977)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6024)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedQualifier(Typers.scala:6122)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:111)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:24)
+
+Jun 14, 2021 10:59:06 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+[0m2021.06.14 22:59:13 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:59:13 INFO  time: compiled root in 0.12s[0m
+Jun 14, 2021 10:59:37 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+[0m2021.06.14 22:59:45 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 22:59:45 INFO  time: compiled root in 0.11s[0m
+[0m2021.06.14 23:00:31 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:00:31 INFO  time: compiled root in 0.14s[0m
+Jun 14, 2021 11:00:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 9 is not a valid line number, allowed [0..8]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 9 is not a valid line number, allowed [0..8]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.IllegalArgumentException: 9 is not a valid line number, allowed [0..8]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.lineLength$1(Position.scala:57)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:60)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:80)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+[0m2021.06.14 23:00:36 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:00:36 INFO  time: compiled root in 61ms[0m
+Jun 14, 2021 11:01:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 9 is not a valid line number, allowed [0..8]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 9 is not a valid line number, allowed [0..8]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.IllegalArgumentException: 9 is not a valid line number, allowed [0..8]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.lineLength$1(Position.scala:57)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:60)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:80)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/fplib/PointFree.scala in A => <error>RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/fplib/PointFree.scala, 92, 94, 158)
+Jun 14, 2021 11:01:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 9 is not a valid line number, allowed [0..8]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 9 is not a valid line number, allowed [0..8]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.IllegalArgumentException: 9 is not a valid line number, allowed [0..8]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.lineLength$1(Position.scala:57)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:60)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:121)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:80)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+[0m2021.06.14 23:01:15 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:01:15 INFO  time: compiled root in 0.95s[0m
+[0m2021.06.14 23:01:42 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:01:42 INFO  time: compiled root in 0.95s[0m
+[0m2021.06.14 23:03:54 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:03:54 INFO  time: compiled root in 0.91s[0m
+Jun 14, 2021 11:03:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4216
+Jun 14, 2021 11:04:31 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jun 14, 2021 11:04:31 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+scala.MatchError: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+	at scala.tools.nsc.typechecker.Unapplies.constrParamss(Unapplies.scala:88)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth(Unapplies.scala:139)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth$(Unapplies.scala:136)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.factoryMeth(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper(MethodSynthesis.scala:238)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper$(MethodSynthesis.scala:237)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterImplicitWrapper(Namers.scala:57)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym(Global.scala:95)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym$(Global.scala:81)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$$anon$2.enterExistingSym(Global.scala:51)
+	at scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:313)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym(AnalyzerPlugins.scala:478)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym$(AnalyzerPlugins.scala:477)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.pluginsEnterSym(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:287)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSym(Typers.scala:1983)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSyms(Typers.scala:1978)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2038)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedModuleDef(Typers.scala:1938)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5934)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6024)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:6102)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$8(Typers.scala:3408)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3408)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5630)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5936)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6024)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:115)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:454)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1353)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1346)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:670)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:819)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1238)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:402)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+
+Jun 14, 2021 11:04:32 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jun 14, 2021 11:04:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+scala.MatchError: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+	at scala.tools.nsc.typechecker.Unapplies.constrParamss(Unapplies.scala:88)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth(Unapplies.scala:139)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth$(Unapplies.scala:136)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.factoryMeth(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper(MethodSynthesis.scala:238)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper$(MethodSynthesis.scala:237)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterImplicitWrapper(Namers.scala:57)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym(Global.scala:95)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym$(Global.scala:81)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$$anon$2.enterExistingSym(Global.scala:51)
+	at scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:313)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym(AnalyzerPlugins.scala:478)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym$(AnalyzerPlugins.scala:477)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.pluginsEnterSym(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:287)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSym(Typers.scala:1983)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSyms(Typers.scala:1978)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2038)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedModuleDef(Typers.scala:1938)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5934)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6024)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:6102)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$8(Typers.scala:3408)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3408)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5630)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5936)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6024)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:115)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:454)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1353)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1346)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:670)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:819)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1238)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:402)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+
+Jun 14, 2021 11:04:32 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jun 14, 2021 11:04:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+scala.MatchError: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+	at scala.tools.nsc.typechecker.Unapplies.constrParamss(Unapplies.scala:88)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth(Unapplies.scala:139)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth$(Unapplies.scala:136)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.factoryMeth(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper(MethodSynthesis.scala:238)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper$(MethodSynthesis.scala:237)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterImplicitWrapper(Namers.scala:57)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym(Global.scala:95)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym$(Global.scala:81)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$$anon$2.enterExistingSym(Global.scala:51)
+	at scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:313)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym(AnalyzerPlugins.scala:478)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym$(AnalyzerPlugins.scala:477)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.pluginsEnterSym(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:287)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSym(Typers.scala:1983)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSyms(Typers.scala:1978)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2038)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedModuleDef(Typers.scala:1938)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5934)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6024)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:6102)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$8(Typers.scala:3408)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3408)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5630)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5936)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6024)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:115)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:454)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1353)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1346)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:670)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:819)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1238)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:402)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+
+Jun 14, 2021 11:04:32 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jun 14, 2021 11:04:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: final implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+scala.MatchError: final implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+	at scala.tools.nsc.typechecker.Unapplies.constrParamss(Unapplies.scala:88)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth(Unapplies.scala:139)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth$(Unapplies.scala:136)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.factoryMeth(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper(MethodSynthesis.scala:238)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper$(MethodSynthesis.scala:237)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterImplicitWrapper(Namers.scala:57)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym(Global.scala:95)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym$(Global.scala:81)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$$anon$2.enterExistingSym(Global.scala:51)
+	at scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:313)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym(AnalyzerPlugins.scala:478)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym$(AnalyzerPlugins.scala:477)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.pluginsEnterSym(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:287)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSym(Typers.scala:1983)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSyms(Typers.scala:1978)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2038)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedModuleDef(Typers.scala:1938)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5934)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6024)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:6102)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$8(Typers.scala:3408)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3408)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5630)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5936)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6024)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:115)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:454)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1353)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1346)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:670)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:819)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1238)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:402)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+
+Jun 14, 2021 11:04:33 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jun 14, 2021 11:04:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: final implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+scala.MatchError: final implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+	at scala.tools.nsc.typechecker.Unapplies.constrParamss(Unapplies.scala:88)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth(Unapplies.scala:139)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth$(Unapplies.scala:136)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.factoryMeth(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper(MethodSynthesis.scala:238)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper$(MethodSynthesis.scala:237)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterImplicitWrapper(Namers.scala:57)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym(Global.scala:95)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym$(Global.scala:81)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$$anon$2.enterExistingSym(Global.scala:51)
+	at scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:313)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym(AnalyzerPlugins.scala:478)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym$(AnalyzerPlugins.scala:477)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.pluginsEnterSym(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:287)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSym(Typers.scala:1983)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSyms(Typers.scala:1978)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2038)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedModuleDef(Typers.scala:1938)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5934)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6024)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:6102)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$8(Typers.scala:3408)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3408)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5630)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5936)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6024)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:115)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:454)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1353)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1346)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:670)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:819)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1238)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:402)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+
+Jun 14, 2021 11:04:33 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jun 14, 2021 11:04:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: final implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+scala.MatchError: final implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+	at scala.tools.nsc.typechecker.Unapplies.constrParamss(Unapplies.scala:88)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth(Unapplies.scala:139)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth$(Unapplies.scala:136)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.factoryMeth(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper(MethodSynthesis.scala:238)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper$(MethodSynthesis.scala:237)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterImplicitWrapper(Namers.scala:57)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym(Global.scala:95)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym$(Global.scala:81)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$$anon$2.enterExistingSym(Global.scala:51)
+	at scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:313)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym(AnalyzerPlugins.scala:478)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym$(AnalyzerPlugins.scala:477)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.pluginsEnterSym(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:287)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSym(Typers.scala:1983)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSyms(Typers.scala:1978)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2038)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedModuleDef(Typers.scala:1938)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5934)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6024)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:6102)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$8(Typers.scala:3408)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3408)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5630)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5936)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6024)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:115)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:454)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1353)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1346)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:670)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:819)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1238)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:402)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+
+[0m2021.06.14 23:05:55 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:05:55 INFO  time: compiled root in 0.83s[0m
+[0m2021.06.14 23:05:55 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:05:57 INFO  time: compiled root in 0.56s[0m
+[0m2021.06.14 23:07:18 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:07:19 INFO  time: compiled root in 1.03s[0m
+Jun 14, 2021 11:07:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4842
+Jun 14, 2021 11:07:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4849
+Jun 14, 2021 11:07:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4855
+[0m2021.06.14 23:08:12 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.14 23:08:12 INFO  time: compiled root-test in 0.18s[0m
+Jun 14, 2021 11:08:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4970
+Jun 14, 2021 11:08:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5015
+[0m2021.06.14 23:08:53 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:08:55 INFO  time: compiled root in 1.78s[0m
+[0m2021.06.14 23:09:04 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:09:04 INFO  time: compiled root in 0.14s[0m
+Jun 14, 2021 11:09:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5077
+[0m2021.06.14 23:09:15 INFO  compiling root (2 scala sources)[0m
+[0m2021.06.14 23:09:17 INFO  time: compiled root in 1.08s[0m
+[0m2021.06.14 23:09:17 INFO  compiling root (2 scala sources)[0m
+[0m2021.06.14 23:09:17 INFO  time: compiled root in 48ms[0m
+Jun 14, 2021 11:09:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5091
+Jun 14, 2021 11:09:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5097
+[0m2021.06.14 23:09:36 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:09:36 INFO  time: compiled root in 0.23s[0m
+Jun 14, 2021 11:09:39 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+[0m2021.06.14 23:09:44 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:09:44 INFO  time: compiled root in 0.21s[0m
+[0m2021.06.14 23:09:50 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:09:50 INFO  time: compiled root in 0.19s[0m
+[0m2021.06.14 23:10:13 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:10:13 INFO  time: compiled root in 0.22s[0m
+[0m2021.06.14 23:10:23 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:10:23 INFO  time: compiled root in 0.33s[0m
+[0m2021.06.14 23:10:36 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:10:36 INFO  time: compiled root in 0.39s[0m
+[0m2021.06.14 23:11:02 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:11:02 INFO  time: compiled root in 0.27s[0m
+[0m2021.06.14 23:11:21 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:11:21 INFO  time: compiled root in 0.37s[0m
+[0m2021.06.14 23:11:35 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:11:35 INFO  time: compiled root in 0.27s[0m
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/monads/Interpretor.scala in fplib.Description[A]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/monads/Interpretor.scala, 203, 203, 217)
+[0m2021.06.14 23:11:58 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:11:59 INFO  time: compiled root in 1.57s[0m
+Jun 14, 2021 11:12:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5644
+[0m2021.06.14 23:12:07 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:12:07 INFO  time: compiled root in 0.91s[0m
+Jun 14, 2021 11:12:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5665
+[0m2021.06.14 23:12:28 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.14 23:12:28 INFO  time: compiled root-test in 0.13s[0m
+[0m2021.06.14 23:12:29 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.14 23:12:29 INFO  time: compiled root-test in 0.14s[0m
+[0m2021.06.14 23:12:31 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.14 23:12:31 INFO  time: compiled root-test in 95ms[0m
+Jun 14, 2021 11:13:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5700
+Jun 14, 2021 11:13:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5707
+[0m2021.06.14 23:13:51 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:13:52 INFO  time: compiled root in 1.03s[0m
+Jun 14, 2021 11:13:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5737
+Jun 14, 2021 11:18:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5745
+Jun 14, 2021 11:18:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5751
+Jun 14, 2021 11:18:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5756
+[0m2021.06.14 23:18:47 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.14 23:18:47 INFO  time: compiled root-test in 0.14s[0m
+[0m2021.06.14 23:21:30 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:21:30 INFO  time: compiled root in 0.93s[0m
+Jun 14, 2021 11:21:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5965
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/monads/Interpretor.scala in fplib.Functional[A]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/monads/Interpretor.scala, 211, 211, 224)
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/monads/Interpretor.scala in fplib.Functional[A]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/monads/Interpretor.scala, 203, 203, 216)
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/monads/Interpretor.scala in fplib.Functional[A]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/monads/Interpretor.scala, 203, 203, 216)
+Jun 14, 2021 11:23:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6051
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/fplib/package.scala in fplib.package.Thunk[A]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/fplib/package.scala, 82, 82, 90)
+Jun 14, 2021 11:23:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6058
+Jun 14, 2021 11:23:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6069
+Jun 14, 2021 11:23:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6078
+Jun 14, 2021 11:24:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6126
+Jun 14, 2021 11:24:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6132
+Jun 14, 2021 11:24:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6138
+[0m2021.06.14 23:24:33 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:24:33 INFO  time: compiled root in 0.72s[0m
+Jun 14, 2021 11:26:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6172
+[0m2021.06.14 23:26:13 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:26:13 INFO  time: compiled root in 0.18s[0m
+Jun 14, 2021 11:26:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6202
+Jun 14, 2021 11:26:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6209
+[0m2021.06.14 23:26:28 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:26:28 INFO  time: compiled root in 0.17s[0m
+Jun 14, 2021 11:26:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6247
+[0m2021.06.14 23:26:40 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:26:40 INFO  time: compiled root in 0.14s[0m
+[0m2021.06.14 23:26:40 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:26:40 INFO  time: compiled root in 52ms[0m
+Jun 14, 2021 11:26:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6254
+Jun 14, 2021 11:26:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6262
+Jun 14, 2021 11:26:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6270
+Jun 14, 2021 11:26:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6278
+Jun 14, 2021 11:27:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6289
+Jun 14, 2021 11:27:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6294
+Jun 14, 2021 11:27:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6304
+Jun 14, 2021 11:27:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6311
+[0m2021.06.14 23:27:28 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:27:28 INFO  time: compiled root in 0.23s[0m
+[0m2021.06.14 23:27:30 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:27:30 INFO  time: compiled root in 0.18s[0m
+[0m2021.06.14 23:28:21 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:28:21 INFO  time: compiled root in 0.17s[0m
+[0m2021.06.14 23:28:29 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:28:29 INFO  time: compiled root in 0.25s[0m
+Jun 14, 2021 11:28:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6505
+Jun 14, 2021 11:28:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6512
+Jun 14, 2021 11:28:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6518
+Jun 14, 2021 11:28:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6530
+Jun 14, 2021 11:29:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6559
+Jun 14, 2021 11:29:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6565
+Jun 14, 2021 11:29:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6571
+Jun 14, 2021 11:29:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6578
+Jun 14, 2021 11:29:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6586
+Jun 14, 2021 11:29:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6592
+[0m2021.06.14 23:29:41 INFO  compiling root (2 scala sources)[0m
+[0m2021.06.14 23:29:41 INFO  time: compiled root in 0.27s[0m
+Jun 14, 2021 11:29:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6606
+[0m2021.06.14 23:29:49 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:29:49 INFO  time: compiled root in 0.27s[0m
+[0m2021.06.14 23:30:04 INFO  /home/sachin/top-secret/monads/src/main/scala/monads/Main.scala:8:5: stale bloop error: value --> is not a member of fplib.Functional[Unit]
+    fun1() --> fun2()
+    ^^^^^^^^^^[0m
+[0m2021.06.14 23:30:04 INFO  /home/sachin/top-secret/monads/src/main/scala/monads/Main.scala:8:5: stale bloop error: value --> is not a member of fplib.Functional[Unit]
+    fun1() --> fun2()
+    ^^^^^^^^^^[0m
+[0m2021.06.14 23:30:06 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:30:06 INFO  time: compiled root in 0.27s[0m
+[0m2021.06.14 23:30:08 INFO  /home/sachin/top-secret/monads/src/main/scala/monads/Main.scala:8:5: stale bloop error: value --> is not a member of fplib.Functional[Unit]
+    fun1() `-->` fun2()
+    ^^^^^^^^^^[0m
+[0m2021.06.14 23:30:08 INFO  /home/sachin/top-secret/monads/src/main/scala/monads/Main.scala:8:5: stale bloop error: value --> is not a member of fplib.Functional[Unit]
+    fun1() `-->` fun2()
+    ^^^^^^^^^^[0m
+[0m2021.06.14 23:30:12 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:30:12 INFO  time: compiled root in 0.19s[0m
+Jun 14, 2021 11:30:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6696
+Jun 14, 2021 11:30:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6702
+Jun 14, 2021 11:30:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6708
+[0m2021.06.14 23:30:32 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:30:32 INFO  time: compiled root in 0.12s[0m
+Jun 14, 2021 11:30:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6717
+[0m2021.06.14 23:30:40 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:30:40 INFO  time: compiled root in 0.14s[0m
+[0m2021.06.14 23:30:40 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:30:40 INFO  time: compiled root in 0.11s[0m
+Jun 14, 2021 11:30:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6730
+[0m2021.06.14 23:30:52 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:30:52 INFO  time: compiled root in 0.22s[0m
+Jun 14, 2021 11:31:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6758
+Jun 14, 2021 11:31:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6765
+Jun 14, 2021 11:31:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6771
+Jun 14, 2021 11:31:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6777
+Jun 14, 2021 11:31:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6784
+Jun 14, 2021 11:31:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6790
+Jun 14, 2021 11:31:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6796
+Jun 14, 2021 11:31:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6806
+Jun 14, 2021 11:31:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6812
+Jun 14, 2021 11:31:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6818
+Jun 14, 2021 11:31:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6824
+Jun 14, 2021 11:31:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6830
+Jun 14, 2021 11:31:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6836
+[0m2021.06.14 23:32:09 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:32:09 INFO  time: compiled root in 0.1s[0m
+[0m2021.06.14 23:32:09 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:32:09 INFO  time: compiled root in 0.13s[0m
+[0m2021.06.14 23:32:53 INFO  /home/sachin/top-secret/monads/src/main/scala/monads/Main.scala:8:5: stale bloop error: value --> is not a member of fplib.Functional[Unit]
+    fun1() --> fun2()
+    ^^^^^^^^^^[0m
+[0m2021.06.14 23:32:53 INFO  /home/sachin/top-secret/monads/src/main/scala/monads/Main.scala:8:5: stale bloop error: value --> is not a member of fplib.Functional[Unit]
+    fun1() --> fun2()
+    ^^^^^^^^^^[0m
+[0m2021.06.14 23:32:56 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:32:56 INFO  time: compiled root in 0.25s[0m
+[0m2021.06.14 23:33:00 INFO  /home/sachin/top-secret/monads/src/main/scala/monads/Main.scala:8:5: stale bloop error: value --> is not a member of fplib.Functional[Unit]
+    fun1() `-->` fun2()
+    ^^^^^^^^^^[0m
+[0m2021.06.14 23:33:00 INFO  /home/sachin/top-secret/monads/src/main/scala/monads/Main.scala:8:5: stale bloop error: value --> is not a member of fplib.Functional[Unit]
+    fun1() `-->` fun2()
+    ^^^^^^^^^^[0m
+[0m2021.06.14 23:33:03 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:33:03 INFO  time: compiled root in 0.11s[0m
+Jun 14, 2021 11:33:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6905
+[0m2021.06.14 23:33:10 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:33:10 INFO  time: compiled root in 0.18s[0m
+Jun 14, 2021 11:33:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6927
+[0m2021.06.14 23:33:45 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:33:45 INFO  time: compiled root in 0.26s[0m
+[0m2021.06.14 23:33:56 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:33:56 INFO  time: compiled root in 0.15s[0m
+[0m2021.06.14 23:34:05 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:34:05 INFO  time: compiled root in 0.32s[0m
+[0m2021.06.14 23:34:09 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:34:09 INFO  time: compiled root in 0.19s[0m
+[0m2021.06.14 23:34:23 INFO  /home/sachin/top-secret/monads/src/main/scala/monads/Main.scala:8:5: stale bloop error: value --> is not a member of Unit
+    fun1() --> fun2()
+    ^^^^^^^^^^[0m
+[0m2021.06.14 23:34:23 INFO  /home/sachin/top-secret/monads/src/main/scala/monads/Main.scala:8:5: stale bloop error: value --> is not a member of Unit
+    fun1() --> fun2()
+    ^^^^^^^^^^[0m
+[0m2021.06.14 23:34:28 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:34:28 INFO  time: compiled root in 0.19s[0m
+[0m2021.06.14 23:37:15 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:37:15 INFO  time: compiled root in 0.13s[0m
+[0m2021.06.14 23:37:30 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:37:30 INFO  time: compiled root in 0.22s[0m
+[0m2021.06.14 23:37:52 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:37:52 INFO  time: compiled root in 0.21s[0m
+[0m2021.06.14 23:38:17 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:38:17 INFO  time: compiled root in 0.18s[0m
+[0m2021.06.14 23:38:41 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:38:41 INFO  time: compiled root in 0.22s[0m
+[0m2021.06.14 23:38:49 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:38:49 INFO  time: compiled root in 0.16s[0m
+[0m2021.06.14 23:39:08 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:39:08 INFO  time: compiled root in 0.2s[0m
+[0m2021.06.14 23:39:14 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:39:14 INFO  time: compiled root in 0.23s[0m
+[0m2021.06.14 23:39:22 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:39:22 INFO  time: compiled root in 0.17s[0m
+Jun 14, 2021 11:39:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7418
+[0m2021.06.14 23:39:26 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:39:26 INFO  time: compiled root in 0.12s[0m
+Jun 14, 2021 11:39:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7426
+Jun 14, 2021 11:39:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7432
+[0m2021.06.14 23:39:35 INFO  compiling root (2 scala sources)[0m
+[0m2021.06.14 23:39:36 INFO  time: compiled root in 1.29s[0m
+[0m2021.06.14 23:39:43 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:39:43 INFO  time: compiled root in 0.19s[0m
+[0m2021.06.14 23:39:53 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.14 23:39:53 INFO  time: compiled root-test in 0.14s[0m
+[0m2021.06.14 23:39:53 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.14 23:39:53 INFO  time: compiled root-test in 94ms[0m
+Jun 14, 2021 11:39:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7490
+Jun 14, 2021 11:40:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7511
+Jun 14, 2021 11:40:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7517
+[0m2021.06.14 23:40:30 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:40:30 INFO  time: compiled root in 0.84s[0m
+[0m2021.06.14 23:40:30 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:40:30 INFO  time: compiled root in 52ms[0m
+Jun 14, 2021 11:40:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7581
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/monads/Interpretor.scala in fplib.Functional[A]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/monads/Interpretor.scala, 203, 203, 216)
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/monads/Interpretor.scala in fplib.Functional[A]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/monads/Interpretor.scala, 295, 295, 308)
+[0m2021.06.14 23:40:53 INFO  compiling root (2 scala sources)[0m
+[0m2021.06.14 23:40:53 INFO  time: compiled root in 0.18s[0m
+[0m2021.06.14 23:40:58 INFO  compiling root (2 scala sources)[0m
+[0m2021.06.14 23:40:59 INFO  time: compiled root in 1.03s[0m
+[0m2021.06.14 23:41:07 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:41:07 WARN  1 deprecation (since 2.11.0); re-run with -deprecation for details[0m
+[0m2021.06.14 23:41:07 INFO  time: compiled root in 0.9s[0m
+[0m2021.06.14 23:41:21 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:41:21 INFO  time: compiled root in 0.15s[0m
+[0m2021.06.14 23:41:43 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:41:43 INFO  time: compiled root in 0.14s[0m
+Jun 14, 2021 11:41:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7779
+Jun 14, 2021 11:42:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7788
+Jun 14, 2021 11:42:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7795
+Jun 14, 2021 11:44:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7801
+Jun 14, 2021 11:44:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7808
+Jun 14, 2021 11:44:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7813
+Jun 14, 2021 11:44:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7819
+Jun 14, 2021 11:44:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7824
+[0m2021.06.14 23:45:19 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.14 23:45:19 INFO  time: compiled root-test in 0.14s[0m
+[0m2021.06.14 23:45:38 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.14 23:45:38 INFO  time: compiled root-test in 0.14s[0m
+[0m2021.06.14 23:45:40 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.14 23:45:40 INFO  time: compiled root-test in 0.12s[0m
+[0m2021.06.14 23:45:43 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.14 23:45:43 INFO  time: compiled root-test in 0.14s[0m
+Jun 14, 2021 11:45:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7918
+Jun 14, 2021 11:48:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7943
+Jun 14, 2021 11:48:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7951
+Jun 14, 2021 11:48:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7957
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/fplib/PointFree.scala in fplib.Functional[<error>]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/fplib/PointFree.scala, 232, 232, 252)
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/fplib/PointFree.scala in fplib.Functional[B]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/fplib/PointFree.scala, 232, 232, 245)
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/fplib/PointFree.scala in fplib.Functional[B]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/fplib/PointFree.scala, 232, 232, 245)
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/fplib/PointFree.scala in fplib.Functional[B]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/fplib/PointFree.scala, 232, 232, 245)
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/fplib/PointFree.scala in fplib.Functional[<error>]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/fplib/PointFree.scala, 252, 252, 272)
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/fplib/PointFree.scala in fplib.Functional[C]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/fplib/PointFree.scala, 252, 252, 265)
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/fplib/PointFree.scala in fplib.Functional[C]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/fplib/PointFree.scala, 252, 252, 265)
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/fplib/PointFree.scala in fplib.Functional[C]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/fplib/PointFree.scala, 252, 252, 265)
+[0m2021.06.14 23:50:25 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:50:27 INFO  time: compiled root in 1.02s[0m
+[0m2021.06.14 23:51:28 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:51:28 INFO  time: compiled root in 0.19s[0m
+[0m2021.06.14 23:51:32 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:51:32 INFO  time: compiled root in 0.94s[0m
+[0m2021.06.14 23:51:38 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.14 23:51:38 INFO  time: compiled root-test in 0.15s[0m
+[0m2021.06.14 23:52:15 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:52:15 INFO  time: compiled root in 0.14s[0m
+[0m2021.06.14 23:55:23 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:55:23 INFO  time: compiled root in 0.15s[0m
+[0m2021.06.14 23:55:38 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:55:38 INFO  time: compiled root in 75ms[0m
+[0m2021.06.14 23:55:52 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:55:53 INFO  time: compiled root in 1.24s[0m
+Jun 14, 2021 11:56:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8693
+Jun 14, 2021 11:56:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8700
+[0m2021.06.14 23:56:18 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:56:18 INFO  time: compiled root in 0.91s[0m
+Jun 14, 2021 11:56:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8707
+[0m2021.06.14 23:56:21 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:56:21 WARN  1 deprecation (since 2.11.0); re-run with -deprecation for details[0m
+[0m2021.06.14 23:56:21 INFO  time: compiled root in 0.99s[0m
+Jun 14, 2021 11:56:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8716
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/fplib/package.scala in A => BRangePosition(file:///home/sachin/top-secret/monads/src/main/scala/fplib/package.scala, 344, 345, 348)
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/fplib/package.scala in fplib.package.Functional[B]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/fplib/package.scala, 347, 347, 359)
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/fplib/package.scala in fplib.package.Functional[B]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/fplib/package.scala, 347, 347, 359)
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/fplib/package.scala in fplib.package.Functional[C]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/fplib/package.scala, 413, 413, 425)
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/fplib/package.scala in fplib.package.Functional[C]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/fplib/package.scala, 413, 413, 425)
+[0m2021.06.14 23:57:25 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:57:25 INFO  time: compiled root in 0.2s[0m
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/fplib/package.scala in fplib.package.Functional[C]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/fplib/package.scala, 413, 413, 426)
+[0m2021.06.14 23:57:34 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:57:34 INFO  time: compiled root in 0.16s[0m
+[0m2021.06.14 23:57:47 INFO  compiling root (1 scala source)[0m
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/fplib/package.scala in fplib.package.Functional[C]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/fplib/package.scala, 413, 413, 426)
+[0m2021.06.14 23:57:48 INFO  time: compiled root in 1.38s[0m
+[0m2021.06.14 23:57:48 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:57:48 WARN  1 deprecation (since 2.11.0); re-run with -deprecation for details[0m
+[0m2021.06.14 23:57:48 INFO  time: compiled root in 0.54s[0m
+Jun 14, 2021 11:57:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8961
+Jun 14, 2021 11:57:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8967
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/fplib/package.scala in B => fplib.package.Functional[C]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/fplib/package.scala, 410, 411, 426)
+[0m2021.06.14 23:58:37 INFO  compiling root (1 scala source)[0m
+[0m2021.06.14 23:58:38 INFO  time: compiled root in 1.42s[0m
+[0m2021.06.14 23:58:38 INFO  compiling root (5 scala sources)[0m
+[0m2021.06.14 23:58:38 WARN  1 deprecation (since 2.11.0); re-run with -deprecation for details[0m
+[0m2021.06.14 23:58:38 INFO  time: compiled root in 0.47s[0m
+[0m2021.06.15 00:01:26 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:01:27 INFO  time: compiled root in 1.24s[0m
+[0m2021.06.15 00:01:32 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:01:32 INFO  time: compiled root in 0.99s[0m
+[0m2021.06.15 00:01:50 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:01:51 INFO  time: compiled root in 1.1s[0m
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/fplib/package.scala in fplib.package.Functional[B]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/fplib/package.scala, 415, 415, 428)
+[0m2021.06.15 00:01:56 INFO  compiling root (1 scala source)[0m
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/fplib/package.scala in fplib.package.Functional[C]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/fplib/package.scala, 488, 488, 501)
+[0m2021.06.15 00:01:57 INFO  time: compiled root in 1.06s[0m
+Jun 15, 2021 12:02:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9186
+Jun 15, 2021 12:02:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9193
+[0m2021.06.15 00:03:34 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:03:34 INFO  time: compiled root in 0.1s[0m
+Jun 15, 2021 12:04:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9282
+Jun 15, 2021 12:04:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9288
+Jun 15, 2021 12:04:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9295
+Jun 15, 2021 12:04:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9301
+Jun 15, 2021 12:04:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9307
+Jun 15, 2021 12:04:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9312
+[0m2021.06.15 00:06:21 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:06:21 WARN  2 deprecations (since 2.13.3); re-run with -deprecation for details[0m
+[0m2021.06.15 00:06:21 INFO  time: compiled root in 0.87s[0m
+[0m2021.06.15 00:06:21 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:06:22 INFO  time: compiled root in 0.19s[0m
+Jun 15, 2021 12:06:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9438
+Jun 15, 2021 12:06:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9443
+[0m2021.06.15 00:06:34 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.15 00:06:34 INFO  time: compiled root-test in 0.14s[0m
+[0m2021.06.15 00:06:38 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.15 00:06:38 INFO  time: compiled root-test in 0.11s[0m
+[0m2021.06.15 00:06:38 INFO  compiling root-test (1 scala source)[0m
+Jun 15, 2021 12:06:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9465
+[0m2021.06.15 00:06:38 INFO  time: compiled root-test in 0.12s[0m
+[0m2021.06.15 00:06:43 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.15 00:06:43 INFO  time: compiled root-test in 0.13s[0m
+[0m2021.06.15 00:06:43 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.15 00:06:43 INFO  time: compiled root-test in 0.12s[0m
+[0m2021.06.15 00:06:45 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.15 00:06:45 INFO  time: compiled root-test in 0.1s[0m
+[0m2021.06.15 00:07:00 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:07:00 INFO  time: compiled root in 0.13s[0m
+[0m2021.06.15 00:07:09 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:07:09 INFO  time: compiled root in 0.86s[0m
+[0m2021.06.15 00:07:27 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:07:27 INFO  time: compiled root in 0.16s[0m
+[0m2021.06.15 00:07:49 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:07:49 INFO  time: compiled root in 0.14s[0m
+[0m2021.06.15 00:07:53 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:07:53 INFO  time: compiled root in 69ms[0m
+[0m2021.06.15 00:07:53 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:07:53 INFO  time: compiled root in 57ms[0m
+[0m2021.06.15 00:08:03 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.15 00:08:03 INFO  time: compiled root-test in 0.14s[0m
+[0m2021.06.15 00:17:38 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:17:39 INFO  time: compiled root in 1s[0m
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/monads/Interpretor.scala in fplib.Functional[A]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/monads/Interpretor.scala, 203, 203, 216)
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/monads/Interpretor.scala in fplib.Functional[A]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/monads/Interpretor.scala, 203, 203, 216)
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/monads/Interpretor.scala in fplib.Functional[A]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/monads/Interpretor.scala, 203, 203, 216)
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/monads/Interpretor.scala in fplib.Functional[A]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/monads/Interpretor.scala, 203, 203, 216)
+Jun 15, 2021 12:18:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9687
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/fplib/package.scala in () => ARangePosition(file:///home/sachin/top-secret/monads/src/main/scala/fplib/package.scala, 49, 52, 56)
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/fplib/package.scala in fplib.package.Thunk[A]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/fplib/package.scala, 82, 82, 90)
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/fplib/package.scala in fplib.package.Thunk[A]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/fplib/package.scala, 82, 82, 90)
+Jun 15, 2021 12:21:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9705
+Jun 15, 2021 12:21:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9711
+Jun 15, 2021 12:22:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9717
+[0m2021.06.15 00:22:50 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.15 00:22:50 INFO  time: compiled root-test in 0.18s[0m
+[0m2021.06.15 00:22:55 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.15 00:22:55 INFO  time: compiled root-test in 0.12s[0m
+[0m2021.06.15 00:22:55 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.15 00:22:55 INFO  time: compiled root-test in 98ms[0m
+Jun 15, 2021 12:22:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9751
+[0m2021.06.15 00:22:57 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.15 00:22:57 INFO  time: compiled root-test in 0.12s[0m
+Jun 15, 2021 12:22:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9760
+[0m2021.06.15 00:23:10 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:23:10 INFO  time: compiled root in 0.15s[0m
+[0m2021.06.15 00:24:13 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:24:13 INFO  time: compiled root in 0.2s[0m
+[0m2021.06.15 00:24:46 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:24:46 INFO  time: compiled root in 0.12s[0m
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/monads/Main.scala in fplib.Functional[Unit]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/monads/Main.scala, 413, 413, 429)
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/monads/Main.scala in fplib.Functional[Any]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/monads/Main.scala, 394, 394, 409)
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/monads/Main.scala in fplib.Functional[Any]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/monads/Main.scala, 394, 394, 409)
+[0m2021.06.15 00:25:00 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:25:00 INFO  time: compiled root in 0.16s[0m
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/monads/Main.scala in fplib.Functional[Unit]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/monads/Main.scala, 401, 401, 417)
+Jun 15, 2021 12:25:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9937
+Jun 15, 2021 12:25:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9943
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/fplib/package.scala in fplib.package.Functional[C]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/fplib/package.scala, 488, 488, 501)
+Jun 15, 2021 12:25:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9960
+something's wrong: no file:///home/sachin/top-secret/monads/src/main/scala/monads/Main.scala in fplib.Functional[Unit]RangePosition(file:///home/sachin/top-secret/monads/src/main/scala/monads/Main.scala, 401, 401, 417)
+[0m2021.06.15 00:26:40 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:26:41 INFO  time: compiled root in 1.08s[0m
+[0m2021.06.15 00:26:41 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:26:41 INFO  time: compiled root in 63ms[0m
+[0m2021.06.15 00:26:41 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:26:41 INFO  time: compiled root in 0.13s[0m
+[0m2021.06.15 00:26:41 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:26:41 INFO  time: compiled root in 41ms[0m
+Jun 15, 2021 12:26:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9998
+Jun 15, 2021 12:26:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10003
+[0m2021.06.15 00:27:14 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:27:14 INFO  time: compiled root in 0.6s[0m
+[0m2021.06.15 00:27:14 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:27:14 INFO  time: compiled root in 50ms[0m
+[0m2021.06.15 00:27:22 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:27:22 INFO  time: compiled root in 0.66s[0m
+[0m2021.06.15 00:27:22 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:27:22 INFO  time: compiled root in 66ms[0m
+Jun 15, 2021 12:27:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10055
+[0m2021.06.15 00:27:30 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:27:30 INFO  time: compiled root in 0.64s[0m
+[0m2021.06.15 00:27:30 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:27:30 INFO  time: compiled root in 51ms[0m
+Jun 15, 2021 12:27:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10067
+[0m2021.06.15 00:27:35 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:27:35 INFO  time: compiled root in 0.63s[0m
+[0m2021.06.15 00:27:35 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:27:35 INFO  time: compiled root in 63ms[0m
+[0m2021.06.15 00:27:35 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:27:35 INFO  time: compiled root in 0.15s[0m
+[0m2021.06.15 00:27:35 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:27:35 INFO  time: compiled root in 55ms[0m
+[0m2021.06.15 00:27:38 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:27:38 INFO  time: compiled root in 0.62s[0m
+[0m2021.06.15 00:27:38 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:27:38 INFO  time: compiled root in 42ms[0m
+[0m2021.06.15 00:27:38 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:27:39 INFO  time: compiled root in 0.18s[0m
+Jun 15, 2021 12:27:39 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+[0m2021.06.15 00:27:39 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:27:39 INFO  time: compiled root in 52ms[0m
+Jun 15, 2021 12:27:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10087
+[0m2021.06.15 00:27:47 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:27:48 INFO  time: compiled root in 1.23s[0m
+[0m2021.06.15 00:27:48 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:27:48 INFO  time: compiled root in 52ms[0m
+Jun 15, 2021 12:27:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10093
+[0m2021.06.15 00:27:50 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:27:50 INFO  time: compiled root in 0.66s[0m
+[0m2021.06.15 00:27:50 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:27:50 INFO  time: compiled root in 44ms[0m
+[0m2021.06.15 00:27:54 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:27:54 INFO  time: compiled root in 0.64s[0m
+[0m2021.06.15 00:27:54 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:27:54 INFO  time: compiled root in 50ms[0m
+Jun 15, 2021 12:27:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10103
+Jun 15, 2021 12:27:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10110
+[0m2021.06.15 00:27:57 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:27:57 INFO  time: compiled root in 0.67s[0m
+[0m2021.06.15 00:27:57 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:27:57 INFO  time: compiled root in 43ms[0m
+Jun 15, 2021 12:27:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10118
+[0m2021.06.15 00:28:00 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:28:00 INFO  time: compiled root in 0.66s[0m
+[0m2021.06.15 00:28:00 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:28:00 INFO  time: compiled root in 38ms[0m
+[0m2021.06.15 00:28:05 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:28:05 INFO  time: compiled root in 0.64s[0m
+[0m2021.06.15 00:28:05 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:28:05 INFO  time: compiled root in 45ms[0m
+[0m2021.06.15 00:28:05 INFO  compiling root (1 scala source)[0m
+Jun 15, 2021 12:28:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10132
+[0m2021.06.15 00:28:06 INFO  time: compiled root in 0.19s[0m
+[0m2021.06.15 00:28:06 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:28:06 INFO  time: compiled root in 55ms[0m
+[0m2021.06.15 00:28:09 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:28:09 INFO  time: compiled root in 0.65s[0m
+[0m2021.06.15 00:28:09 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:28:09 INFO  time: compiled root in 55ms[0m
+[0m2021.06.15 00:28:14 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:28:14 INFO  time: compiled root in 0.65s[0m
+[0m2021.06.15 00:28:14 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:28:14 INFO  time: compiled root in 40ms[0m
+[0m2021.06.15 00:28:18 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:28:18 INFO  time: compiled root in 0.64s[0m
+[0m2021.06.15 00:28:18 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:28:18 INFO  time: compiled root in 46ms[0m
+Jun 15, 2021 12:28:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10160
+Jun 15, 2021 12:28:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10175
+[0m2021.06.15 00:28:26 INFO  compiling root (2 scala sources)[0m
+[0m2021.06.15 00:28:26 INFO  time: compiled root in 0.14s[0m
+Jun 15, 2021 12:28:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10183
+[0m2021.06.15 00:28:27 INFO  compiling root (2 scala sources)[0m
+[0m2021.06.15 00:28:27 INFO  time: compiled root in 0.16s[0m
+Jun 15, 2021 12:28:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10190
+[0m2021.06.15 00:28:29 INFO  compiling root (2 scala sources)[0m
+[0m2021.06.15 00:28:29 INFO  time: compiled root in 75ms[0m
+[0m2021.06.15 00:28:29 INFO  compiling root (2 scala sources)[0m
+[0m2021.06.15 00:28:29 INFO  time: compiled root in 57ms[0m
+[0m2021.06.15 00:28:31 INFO  compiling root (2 scala sources)[0m
+[0m2021.06.15 00:28:31 INFO  time: compiled root in 82ms[0m
+Jun 15, 2021 12:28:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10205
+[0m2021.06.15 00:28:36 INFO  compiling root (2 scala sources)[0m
+[0m2021.06.15 00:28:36 INFO  time: compiled root in 0.13s[0m
+[0m2021.06.15 00:28:38 INFO  compiling root (2 scala sources)[0m
+[0m2021.06.15 00:28:38 INFO  time: compiled root in 96ms[0m
+[0m2021.06.15 00:28:38 INFO  compiling root (2 scala sources)[0m
+[0m2021.06.15 00:28:38 INFO  time: compiled root in 62ms[0m
+[0m2021.06.15 00:28:41 INFO  compiling root (2 scala sources)[0m
+[0m2021.06.15 00:28:41 INFO  time: compiled root in 84ms[0m
+Jun 15, 2021 12:28:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10240
+[0m2021.06.15 00:28:51 INFO  compiling root (2 scala sources)[0m
+[0m2021.06.15 00:28:51 INFO  time: compiled root in 93ms[0m
+[0m2021.06.15 00:28:51 INFO  compiling root (2 scala sources)[0m
+[0m2021.06.15 00:28:51 INFO  time: compiled root in 76ms[0m
+[0m2021.06.15 00:28:55 INFO  compiling root (2 scala sources)[0m
+[0m2021.06.15 00:28:55 INFO  time: compiled root in 97ms[0m
+[0m2021.06.15 00:28:55 INFO  compiling root (2 scala sources)[0m
+[0m2021.06.15 00:28:55 INFO  time: compiled root in 51ms[0m
+[0m2021.06.15 00:28:57 INFO  compiling root (2 scala sources)[0m
+[0m2021.06.15 00:28:57 INFO  time: compiled root in 52ms[0m
+Jun 15, 2021 12:28:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10261
+[0m2021.06.15 00:29:00 INFO  compiling root (2 scala sources)[0m
+[0m2021.06.15 00:29:00 INFO  time: compiled root in 81ms[0m
+[0m2021.06.15 00:29:21 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:29:22 INFO  time: compiled root in 1.03s[0m
+[0m2021.06.15 00:29:22 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:29:22 WARN  1 deprecation (since 2.11.0); re-run with -deprecation for details[0m
+[0m2021.06.15 00:29:22 INFO  time: compiled root in 0.24s[0m
+[0m2021.06.15 00:29:36 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.15 00:29:36 INFO  time: compiled root-test in 0.21s[0m
+[0m2021.06.15 00:29:45 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:29:45 WARN  1 deprecation (since 2.11.0); re-run with -deprecation for details[0m
+[0m2021.06.15 00:29:45 INFO  time: compiled root in 0.96s[0m
+Jun 15, 2021 12:29:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10320
+[0m2021.06.15 00:30:06 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:30:06 INFO  time: compiled root in 0.97s[0m
+[0m2021.06.15 00:30:06 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:30:07 WARN  1 deprecation (since 2.11.0); re-run with -deprecation for details[0m
+[0m2021.06.15 00:30:07 INFO  time: compiled root in 0.21s[0m
+[0m2021.06.15 00:30:07 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.15 00:30:08 INFO  time: compiled root-test in 0.15s[0m
+Jun 15, 2021 12:30:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10383
+[0m2021.06.15 00:31:06 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:31:07 WARN  1 deprecation (since 2.11.0); re-run with -deprecation for details[0m
+[0m2021.06.15 00:31:07 INFO  time: compiled root in 1.1s[0m
+[0m2021.06.15 00:31:17 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:31:17 WARN  1 deprecation (since 2.11.0); re-run with -deprecation for details[0m
+[0m2021.06.15 00:31:17 INFO  time: compiled root in 0.97s[0m
+[0m2021.06.15 00:31:22 INFO  compiling root (1 scala source)[0m
+[0m2021.06.15 00:31:23 WARN  1 deprecation (since 2.11.0); re-run with -deprecation for details[0m
+[0m2021.06.15 00:31:23 INFO  time: compiled root in 1.1s[0m
+Jun 15, 2021 12:32:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10530
+Jun 15, 2021 12:32:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10547
+Jun 15, 2021 12:33:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10556
+[0m2021.06.15 09:54:44 INFO  shutting down Metals[0m
+[0m2021.06.15 09:54:44 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.06.15 09:54:44 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.06.15 15:16:52 INFO  Started: Metals version 0.10.4 in workspace '/home/sachin/top-secret/monads' for client Visual Studio Code 1.57.0.[0m
+[0m2021.06.15 15:16:57 INFO  time: initialize in 4.87s[0m
+[0m2021.06.15 15:16:57 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher16140488536718145506/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.06.15 15:16:57 WARN  no build target for: /home/sachin/top-secret/monads/src/main/scala/monads/Main.scala[0m
+[0m2021.06.15 15:16:57 WARN  no build target for: /home/sachin/top-secret/monads/src/main/scala/fplib/Functional.scala[0m
+[0m2021.06.15 15:16:57 WARN  no build target for: /home/sachin/top-secret/monads/src/main/scala/fplib/PointFree.scala[0m
+[0m2021.06.15 15:16:58 INFO  skipping build import with status 'Installed'[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.06.15 15:17:07 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Waiting for the bsp connection to come up...
+Jun 15, 2021 3:17:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+[0m2021.06.15 15:17:07 WARN  no build target for: /home/sachin/top-secret/monads/src/main/scala/fplib/package.scala[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8-19-4d9f966b...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/sachin/top-secret/monads/.bloop'...
+[0m[32m[D][0m Loading project from '/home/sachin/top-secret/monads/.bloop/root.json'
+[0m[32m[D][0m Loading project from '/home/sachin/top-secret/monads/.bloop/root-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.5.
+[0m[32m[D][0m   => /home/sachin/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /home/sachin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.19.0/jline-3.19.0.jar
+[0m[32m[D][0m   => /home/sachin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.5/scala-compiler-2.13.5.jar
+[0m[32m[D][0m   => /home/sachin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.5/scala-library-2.13.5.jar
+[0m[32m[D][0m   => /home/sachin/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.5/scala-reflect-2.13.5.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'root-test', 'root'
+[0m[32m[D][0m Loading previous analysis for 'root-test' from '/home/sachin/top-secret/monads/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip'.
+[0m[32m[D][0m Loading previous analysis for 'root' from '/home/sachin/top-secret/monads/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher16140488536718145506/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher16140488536718145506/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.15 15:17:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sachin/.cache/metals/bsp.trace.json[0m
+[0m2021.06.15 15:17:11 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher14242141474236860097/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher14242141474236860097/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher14242141474236860097/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.06.15 15:17:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/sachin/.cache/metals/bsp.trace.json[0m
+[0m2021.06.15 15:17:11 INFO  time: Connected to build server in 14s[0m
+[0m2021.06.15 15:17:11 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.06.15 15:17:11 INFO  time: Imported build in 0.43s[0m
+[0m2021.06.15 15:17:17 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Jun 15, 2021 3:17:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20
+Jun 15, 2021 3:17:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21
+Jun 15, 2021 3:17:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30
+[0m2021.06.15 15:17:25 WARN  Could not find java sources in None. Java symbols will not be available.[0m
+[0m2021.06.15 15:17:27 INFO  time: indexed workspace in 15s[0m
+[0m2021.06.15 15:17:29 INFO  compiling root-test (1 scala source)[0m
+[0m2021.06.15 15:17:41 ERROR text document: file:///home/sachin/top-secret/monads/src/main/scala/fplib/package.scala
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.compile(InteractiveSemanticdbs.scala:183)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.$anonfun$textDocument$1(InteractiveSemanticdbs.scala:80)
+	at java.util.HashMap.compute(HashMap.java:1228)
+	at java.util.Collections$SynchronizedMap.compute(Collections.java:2692)
+	at scala.meta.internal.metals.InteractiveSemanticdbs.textDocument(InteractiveSemanticdbs.scala:76)
+	at scala.meta.internal.metals.AggregateSemanticdbs.loop$1(AggregateSemanticdbs.scala:30)
+	at scala.meta.internal.metals.AggregateSemanticdbs.textDocument(AggregateSemanticdbs.scala:36)
+	at scala.meta.internal.metals.CodeLensProvider.findLenses(CodeLensProvider.scala:22)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$2(MetalsLanguageServer.scala:1501)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeLens$1(MetalsLanguageServer.scala:1499)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$apply$2(CancelTokens.scala:26)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+[0m
+[0m2021.06.15 15:17:41 INFO  time: code lens generation in 34s[0m
+[0m2021.06.15 15:17:57 INFO  time: code lens generation in 50s[0m
+[0m2021.06.15 15:18:04 INFO  time: code lens generation in 1m6s[0m
+[0m2021.06.15 15:18:14 INFO  time: compiled root-test in 45s[0m
