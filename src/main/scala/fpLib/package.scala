@@ -16,7 +16,10 @@ package object fpLib {
     @ inline def `>>=`[B](acb:A=>C[B])(implicit M:Monad[C])  = M.flatMap(ac)(acb)
     @ inline def flatMap[B](acb:A=>C[B])(implicit M:Monad[C])  = M.flatMap(ac)(acb)
 
-    @ inline def map[B](acb:A=>B)(implicit M:Monad[C])  = M.map(ac)(acb)
+    @ inline def map[B](acb:A=>B)(implicit M:Functor[C])  = M.map(ac)(acb)
+
+    @ inline def flatten(value:C[C[A]])(implicit M:Monad[C]):C[A] = M.flatten(value)
+
 
   }
 }

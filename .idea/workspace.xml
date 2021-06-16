@@ -5,110 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0c18fb6-6b06-4d87-ada6-32cf45e2f110" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.bloop/bloop.settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root-test.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-bsp-clients-classes/classes-Metals-evKWJmcHRdq7nmtM6CAdVw==/META-INF/semanticdb/src/main/scala/example/Hello.scala.semanticdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-bsp-clients-classes/classes-Metals-evKWJmcHRdq7nmtM6CAdVw==/META-INF/semanticdb/src/main/scala/fplib/Description.scala.semanticdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-bsp-clients-classes/classes-Metals-evKWJmcHRdq7nmtM6CAdVw==/META-INF/semanticdb/src/main/scala/fplib/Functional.scala.semanticdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-bsp-clients-classes/classes-Metals-evKWJmcHRdq7nmtM6CAdVw==/META-INF/semanticdb/src/main/scala/fplib/PointFree.scala.semanticdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-bsp-clients-classes/classes-Metals-evKWJmcHRdq7nmtM6CAdVw==/META-INF/semanticdb/src/main/scala/fplib/package.scala.semanticdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-bsp-clients-classes/classes-Metals-evKWJmcHRdq7nmtM6CAdVw==/META-INF/semanticdb/src/main/scala/monads/Interpretor.scala.semanticdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-bsp-clients-classes/classes-Metals-evKWJmcHRdq7nmtM6CAdVw==/META-INF/semanticdb/src/main/scala/monads/Main.scala.semanticdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-bsp-clients-classes/classes-Metals-evKWJmcHRdq7nmtM6CAdVw==/fplib/Functional$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-bsp-clients-classes/classes-Metals-evKWJmcHRdq7nmtM6CAdVw==/fplib/Functional.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-bsp-clients-classes/classes-Metals-evKWJmcHRdq7nmtM6CAdVw==/fplib/PointFree$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-bsp-clients-classes/classes-Metals-evKWJmcHRdq7nmtM6CAdVw==/fplib/PointFree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-bsp-clients-classes/classes-Metals-evKWJmcHRdq7nmtM6CAdVw==/fplib/package$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-bsp-clients-classes/classes-Metals-evKWJmcHRdq7nmtM6CAdVw==/fplib/package$EnablePointFree$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-bsp-clients-classes/classes-Metals-evKWJmcHRdq7nmtM6CAdVw==/fplib/package$EnablePointFree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-bsp-clients-classes/classes-Metals-evKWJmcHRdq7nmtM6CAdVw==/fplib/package$EnablePointFreeFunctionally$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-bsp-clients-classes/classes-Metals-evKWJmcHRdq7nmtM6CAdVw==/fplib/package$EnablePointFreeFunctionally.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-bsp-clients-classes/classes-Metals-evKWJmcHRdq7nmtM6CAdVw==/fplib/package.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-bsp-clients-classes/classes-Metals-evKWJmcHRdq7nmtM6CAdVw==/monads/Interpretor$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-bsp-clients-classes/classes-Metals-evKWJmcHRdq7nmtM6CAdVw==/monads/Interpretor$delayedInit$body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-bsp-clients-classes/classes-Metals-evKWJmcHRdq7nmtM6CAdVw==/monads/Interpretor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-bsp-clients-classes/classes-Metals-evKWJmcHRdq7nmtM6CAdVw==/monads/Main$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-bsp-clients-classes/classes-Metals-evKWJmcHRdq7nmtM6CAdVw==/monads/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-bsp-clients-classes/test-classes-Metals-evKWJmcHRdq7nmtM6CAdVw==/META-INF/semanticdb/src/test/scala/example/HelloSpec.scala.semanticdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-bsp-clients-classes/test-classes-Metals-evKWJmcHRdq7nmtM6CAdVw==/example/HelloSpec.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-internal-classes/classes-Metals-BwBoaIxFSgisb9RFaLkGPA==-s4WY5U5oT2agXCMGaM_RsQ==/META-INF/semanticdb/src/main/scala/example/Hello.scala.semanticdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-internal-classes/classes-Metals-BwBoaIxFSgisb9RFaLkGPA==-s4WY5U5oT2agXCMGaM_RsQ==/META-INF/semanticdb/src/main/scala/fplib/Description.scala.semanticdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-internal-classes/classes-Metals-BwBoaIxFSgisb9RFaLkGPA==-s4WY5U5oT2agXCMGaM_RsQ==/META-INF/semanticdb/src/main/scala/fplib/Functional.scala.semanticdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-internal-classes/classes-Metals-BwBoaIxFSgisb9RFaLkGPA==-s4WY5U5oT2agXCMGaM_RsQ==/META-INF/semanticdb/src/main/scala/fplib/PointFree.scala.semanticdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-internal-classes/classes-Metals-BwBoaIxFSgisb9RFaLkGPA==-s4WY5U5oT2agXCMGaM_RsQ==/META-INF/semanticdb/src/main/scala/fplib/package.scala.semanticdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-internal-classes/classes-Metals-BwBoaIxFSgisb9RFaLkGPA==-s4WY5U5oT2agXCMGaM_RsQ==/META-INF/semanticdb/src/main/scala/monads/Interpretor.scala.semanticdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-internal-classes/classes-Metals-BwBoaIxFSgisb9RFaLkGPA==-s4WY5U5oT2agXCMGaM_RsQ==/META-INF/semanticdb/src/main/scala/monads/Main.scala.semanticdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-internal-classes/classes-Metals-BwBoaIxFSgisb9RFaLkGPA==-s4WY5U5oT2agXCMGaM_RsQ==/fplib/Functional$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-internal-classes/classes-Metals-BwBoaIxFSgisb9RFaLkGPA==-s4WY5U5oT2agXCMGaM_RsQ==/fplib/Functional.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-internal-classes/classes-Metals-BwBoaIxFSgisb9RFaLkGPA==-s4WY5U5oT2agXCMGaM_RsQ==/fplib/PointFree$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-internal-classes/classes-Metals-BwBoaIxFSgisb9RFaLkGPA==-s4WY5U5oT2agXCMGaM_RsQ==/fplib/PointFree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-internal-classes/classes-Metals-BwBoaIxFSgisb9RFaLkGPA==-s4WY5U5oT2agXCMGaM_RsQ==/fplib/package$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-internal-classes/classes-Metals-BwBoaIxFSgisb9RFaLkGPA==-s4WY5U5oT2agXCMGaM_RsQ==/fplib/package$EnablePointFree$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-internal-classes/classes-Metals-BwBoaIxFSgisb9RFaLkGPA==-s4WY5U5oT2agXCMGaM_RsQ==/fplib/package$EnablePointFree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-internal-classes/classes-Metals-BwBoaIxFSgisb9RFaLkGPA==-s4WY5U5oT2agXCMGaM_RsQ==/fplib/package$EnablePointFreeFunctionally$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-internal-classes/classes-Metals-BwBoaIxFSgisb9RFaLkGPA==-s4WY5U5oT2agXCMGaM_RsQ==/fplib/package$EnablePointFreeFunctionally.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-internal-classes/classes-Metals-BwBoaIxFSgisb9RFaLkGPA==-s4WY5U5oT2agXCMGaM_RsQ==/fplib/package.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-internal-classes/classes-Metals-BwBoaIxFSgisb9RFaLkGPA==-s4WY5U5oT2agXCMGaM_RsQ==/monads/Interpretor$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-internal-classes/classes-Metals-BwBoaIxFSgisb9RFaLkGPA==-s4WY5U5oT2agXCMGaM_RsQ==/monads/Interpretor$delayedInit$body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-internal-classes/classes-Metals-BwBoaIxFSgisb9RFaLkGPA==-s4WY5U5oT2agXCMGaM_RsQ==/monads/Interpretor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-internal-classes/classes-Metals-BwBoaIxFSgisb9RFaLkGPA==-s4WY5U5oT2agXCMGaM_RsQ==/monads/Main$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-internal-classes/classes-Metals-BwBoaIxFSgisb9RFaLkGPA==-s4WY5U5oT2agXCMGaM_RsQ==/monads/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-internal-classes/test-classes-Metals-BwBoaIxFSgisb9RFaLkGPA==-vD6IcEWHT4qrdgOu_9YI4A==/META-INF/semanticdb/src/test/scala/example/HelloSpec.scala.semanticdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bloop/root/bloop-internal-classes/test-classes-Metals-BwBoaIxFSgisb9RFaLkGPA==-vD6IcEWHT4qrdgOu_9YI4A==/example/HelloSpec.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bsp/sbt.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_13_1_3_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_13_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_13_3_2_8_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_13_3_2_8_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_compatible_3_2_8_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_core_2_13_3_2_8_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_diagrams_2_13_3_2_8_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_featurespec_2_13_3_2_8_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_flatspec_2_13_3_2_8_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_freespec_2_13_3_2_8_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_funspec_2_13_3_2_8_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_funsuite_2_13_3_2_8_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_matchers_core_2_13_3_2_8_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_mustmatchers_2_13_3_2_8_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_propspec_2_13_3_2_8_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_refspec_2_13_3_2_8_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_shouldmatchers_2_13_3_2_8_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_wordspec_2_13_3_2_8_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/examples-build.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/examples.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metals/metals.h2.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metals/metals.lock.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metals/metals.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metals/readonly/dependencies/librarymanagement-core_2.12-1.5.2-sources.jar/sbt/librarymanagement/ResolverExtra.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metals/readonly/dependencies/librarymanagement-ivy_2.12-1.5.2-sources.jar/sbt/internal/librarymanagement/ComponentManager.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metals/readonly/dependencies/main-settings_2.12-1.5.4-sources.jar/sbt/Def.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metals/readonly/dependencies/scala-compiler-2.12.14-sources.jar/scala/tools/nsc/doc/model/Entity.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metals/readonly/dependencies/scala-library-2.13.5-sources.jar/scala/App.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metals/readonly/dependencies/scala-library-2.13.5-sources.jar/scala/Console.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metals/readonly/dependencies/scala-library-2.13.5-sources.jar/scala/Function0.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metals/readonly/dependencies/scala-library-2.13.5-sources.jar/scala/Function1.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metals/readonly/dependencies/scala-library-2.13.5-sources.jar/scala/Predef.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metals/readonly/dependencies/scala-library-2.13.5-sources.jar/scala/Unit.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metals/readonly/dependencies/scala-library-2.13.5-sources.jar/scala/inline.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metals/readonly/dependencies/scala-library-2.13.5-sources.jar/scala/io/AnsiColor.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metals/readonly/dependencies/scala-reflect-2.12.14-sources.jar/scala/reflect/internal/Trees.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metals/readonly/dependencies/scala-xml_2.12-1.3.0-sources.jar/scala/xml/dtd/Decl.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metals/readonly/dependencies/zinc-apiinfo_2.12-1.5.5-sources.jar/sbt/internal/inc/ClassToAPI.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.metals/readonly/dependencies/zinc-lm-integration_2.12-1.5.4-sources.jar/sbt/internal/inc/IfMissing.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/examples/Interpretor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/examples/Interpretor.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/fpLib/Applicative.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/fpLib/Functor.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/fpLib/Summoner.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/examples/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/examples/Main.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/fpLib/IO.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/fpLib/IO.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/fpLib/IO.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/fpLib/Monad.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/fpLib/Monad.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/fpLib/package.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/fpLib/package.scala" afterDir="false" />
     </list>
@@ -195,5 +97,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
