@@ -4,18 +4,24 @@ import fpLib._
 
 object Main {
 
-  lazy val run =  {
-    fun1 >=> fun2 //functional composition
+	val M: Monad[IO] = Monad[IO]
+
+  def run: IO[Unit] =  {
+//		M.>>=(fun1){ a =>     //way 1
+//			fun2(a)
+//		}
+		IO.create(2).map(a=>println(a)) //map
+		fun1.`>>=`(fun2)      //flatmap way 2
   }
 	
 
-	lazy val fun1: Any => IO[String] = _ => IO.create{
+	val fun1: IO[String] = IO.create{
 		println("hello buddy! Can I know your name?")
 		val name = scala.io.StdIn.readLine()
 		name
 	}
 
-	lazy val fun2: String => IO[Unit] = a => IO.create{
+	def fun2(a:String): IO[Unit] = IO.create{
 		println(s"how are you ${a}")
 	}
 

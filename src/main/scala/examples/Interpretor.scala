@@ -4,7 +4,7 @@ import fpLib._
 
 object Interpretor extends App {
 
-  lazy val description = Main.run()
+  lazy val description = Main.run
 
   print(Console.CYAN)
   println("\u2500"*100)
