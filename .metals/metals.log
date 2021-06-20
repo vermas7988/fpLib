@@ -1,0 +1,78 @@
+[0m2021.06.20 14:14:09 INFO  Started: Metals version 0.10.4 in workspace '/home/sachin/top-secret/functional' for client Visual Studio Code 1.57.1.[0m
+[0m2021.06.20 14:14:19 INFO  time: initialize in 9.28s[0m
+[0m2021.06.20 14:14:19 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher8270178819187536191/bsp.socket'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+error: The command bsp --protocol local --socket /tmp/bsp-launcher8270178819187536191/bsp.socket returned with an error
+> No server running at 127.0.0.1:8212, let's fire one...
+> Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8-19-4d9f966b...
+> Starting bloop server at 127.0.0.1:8212...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> Attempting a connection to the server...
+> [0m[32m[D][0m Loading workspace settings from bloop.settings.json
+error: Trying a tcp-based connection to the server instead...
+Opening a bsp server connection with 'bsp --protocol tcp --port 41500'...
+Waiting for the bsp connection to come up...
+error: The command bsp --protocol tcp --port 41500 returned with an error
+> [0m[32m[D][0m Loading workspace settings from bloop.settings.json
+error: The launcher failed to establish a bsp connection, aborting...
+[0m2021.06.20 14:14:25 ERROR Failed to connect with build server, no functionality will work.
+java.lang.RuntimeException: The server did not start, got FailedToOpenBspConnection
+	at bloop.launcher.LauncherMain.failPromise$1(Launcher.scala:95)
+	at bloop.launcher.LauncherMain.runLauncher(Launcher.scala:122)
+	at scala.meta.internal.metals.BloopServers$$anon$1.run(BloopServers.scala:159)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+[0m
+[0m2021.06.20 14:14:34 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals7452613927251894138/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.06.20 14:14:36 INFO  [info] welcome to sbt 1.5.4 (Ubuntu Java 11.0.11)[0m
+[0m2021.06.20 14:14:37 WARN  no build target for: /home/sachin/top-secret/functional/src/main/scala/examples/Interpretor.scala[0m
+[0m2021.06.20 14:14:40 INFO  [info] loading global plugins from /home/sachin/.sbt/1.0/plugins[0m
+[0m2021.06.20 14:14:43 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Jun 20, 2021 2:14:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+[0m2021.06.20 14:14:43 WARN  no build target for: /home/sachin/top-secret/functional/src/main/scala/examples/Main.scala[0m
+[0m2021.06.20 14:14:47 INFO  [info] loading settings for project functional-build-build from metals.sbt ...[0m
+[0m2021.06.20 14:14:48 INFO  time: code lens generation in 4.72s[0m
+[0m2021.06.20 14:14:48 INFO  time: code lens generation in 10s[0m
+[0m2021.06.20 14:14:47 INFO  [info] loading project definition from /home/sachin/top-secret/functional/project/project[0m
+[0m2021.06.20 14:14:48 INFO  shutting down Metals[0m
+[0m2021.06.20 14:14:47 INFO  sbt bloopInstall exit: 143[0m
+[0m2021.06.20 14:14:48 INFO  time: ran 'sbt bloopInstall' in 14s[0m
+[0m2021.06.20 14:14:48 ERROR sbt command failed: /usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals7452613927251894138/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall[0m
+[0m2021.06.20 14:14:48 INFO  Attempting to connect to the build server...[0m
+java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@5e648c76 rejected from java.util.concurrent.ThreadPoolExecutor@5b3c7821[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 139]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.Promise.failure(Promise.scala:104)
+	at scala.concurrent.Promise.failure$(Promise.scala:104)
+	at scala.concurrent.impl.Promise$DefaultPromise.failure(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:45)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)

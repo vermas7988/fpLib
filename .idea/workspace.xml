@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0c18fb6-6b06-4d87-ada6-32cf45e2f110" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/fpLib/Applicative.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/fpLib/Functor.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/fpLib/Summoner.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/examples/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/examples/Main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/metals.h2.db" beforeDir="false" afterPath="$PROJECT_DIR$/.metals/metals.h2.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/metals.lock.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metals/metals.log" beforeDir="false" afterPath="$PROJECT_DIR$/.metals/metals.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/fpLib/IO.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/fpLib/IO.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/fpLib/Monad.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/fpLib/Monad.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/fpLib/package.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/fpLib/package.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

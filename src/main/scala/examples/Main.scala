@@ -13,7 +13,7 @@ object Main {
 		 //map
 	//	fun1.`>>=`(fun2)      //flatmap way 2
 		for {
-			a <- IO.create(2).map(a=>println(a))
+			a <- IO.create(2).map(a=>println(a)).forever
 			f1 <- fun1
 			f2 <- fun2(f1)
 		}    yield ()
