@@ -26,7 +26,7 @@ package object fpLib {
 
   }
 
-  implicit final class IOPimp[A](private val a:IO[A]) extends AnyVal {
+  /*implicit final class IOPimp[A](private val a:IO[A]) extends AnyVal {
 
     /**repeats a task forever/infinitely until some error occurs*/
     @ inline def forever = IO.forever(a)
@@ -36,5 +36,5 @@ package object fpLib {
 
     /**use this instead of unsafeRun() to handle error case also.*/
     @inline def safeRun() = IO.safeRun(a)
-  }
+  }*/
 }
